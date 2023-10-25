@@ -1,4 +1,4 @@
-import { date } from 'astro/zod';
+
 
 export function formatDate(date) {
     return new Date(date).toLocaleDateString('de-DE',
@@ -6,6 +6,5 @@ export function formatDate(date) {
     })
 } 
 
-console.log("Date in Card.astro: " + date);
 
 
