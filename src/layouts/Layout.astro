@@ -1,10 +1,16 @@
 ---
 import { ViewTransitions } from 'astro:transitions';
 import { fade } from 'astro:transitions';
+
+// utils import
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+
 import '../styles/global.css';
-const { pageTitle } = Astro.props;
+
+// Site titles and description
+const { pageTitle, description } = Astro.props;
+const formattedTitle = description ? `${pageTitle} - ${description}` : pageTitle;
 ---
 <!DOCTYPE html>
 <html transition:animate="none" lang="en">
@@ -13,35 +19,16 @@ const { pageTitle } = Astro.props;
         <meta name="description" content="Astro description">
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pacifico&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pacifico&display=swap" rel="stylesheet"></noscript>        
         <meta name="generator" content={Astro.generator} />
         <title>{pageTitle}</title>
         <ViewTransitions />
 	</head>
 	<body>
-        <Header />
+        <Header {pageTitle} {description}/>
         <main transition:animate={fade({ duration: '0.4s' })} >
 	    <slot />
             <Footer />
         </main>
-        <script>
-            function colorMode() {
-                if (
-                    localStorage.theme === "light" ||
-                    (!("theme" in localStorage) &&
-                    window.matchMedia("(prefers-color-scheme: light)").matches)
-                ) {
-                    document.documentElement.classList.add("light");
-                } else {
-                    document.documentElement.classList.remove("light");
-                }
-              }
-            
-            colorMode();
-            document.addEventListener('astro:after-swap', colorMode);
-        </script>
+       
 	</body>
 </html>

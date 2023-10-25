@@ -1,13 +1,21 @@
 ---
 import Layout from '../layouts/Layout.astro';
-const pageTitle = "Milky-Way";
+const pageTitle = "My Astro Site";
+const description = "Beschreibung"
+
+import PostCard from '../components/PostCard.astro';
+import { formatBlogPosts } from '../js/sortPosts';
+const allPosts = await Astro.glob("./blog/posts/*md");
+const formattedPosts = formatBlogPosts(allPosts, {
+    limit: 3,
+});
 ---
-<Layout pageTitle={pageTitle}>
-    <div class="gif">
+<Layout pageTitle={pageTitle} >
+    <!-- <div class="gif">
         <img width="300" height="259" alt="RaccoonSpaceGif" src="/space.webp"/>
-    </div>
-    <h1>Milky-Way</h1>
-    <small>Digital Craftsman (Developer)</small>
+    </div> -->
+    <h1>{ pageTitle }</h1>
+    <!-- <small>Frontend Developer</small> -->
     <h2>About</h2>
     <p>
         Praesent malesuada mi nisi, quis tempus magna venenatis ut.
@@ -15,7 +23,7 @@ const pageTitle = "Milky-Way";
         mi id molestie finibus, metus sem sagittis nunc, euismod feugiat orci neque non lorem.
         Aenean sollicitudin erat eu molestie tempus. Nunc ac eros elementum, fermentum lacus at,
         pellentesque mauris. Suspendisse eros neque, interdum euismod consectetur convallis,
-        porttitor at massa. Phasellus a ultrices arcu. Donec viverra, lorem in pellentesque euismod,
+        porttitor at massa. <a href="http://" target="_blank" rel="noopener noreferrer">Phasellus</a> a ultrices arcu. Donec viverra, lorem in pellentesque euismod,
         libero justo gravida nibh, non ultricies justo purus ultrices est.
     </p>
     <p>
@@ -24,11 +32,11 @@ const pageTitle = "Milky-Way";
         facilisis turpis nibh, nec dictum orci dictum nec. In hac habitasse platea dictumst.
         Maecenas mollis turpis vitae turpis bibendum, vitae tristique arcu eleifend.
     </p>
-    <div class="button">
+
         <a href="/works/">
             <button>My portfolio</button>
         </a>
-    </div>
+
     <h2>Skills</h2>
     <div class="link-images">
         <img width="46" height="46" alt="C#" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"/>
@@ -48,6 +56,19 @@ const pageTitle = "Milky-Way";
         facilisis turpis nibh, nec dictum orci dictum nec. In hac habitasse platea dictumst.
         Maecenas mollis turpis vitae turpis bibendum, vitae tristique arcu eleifend.
     </p>
+
+    <h4>Neueste Blogeinträge</h4>
+    <!-- <p>{ description }</p> -->
+    <section class="index-post-list" aria-label="List of blog posts">
+
+               {
+                formattedPosts.map((post) => (
+                    <PostCard 
+                    frontmatter={post.frontmatter} 
+                    url={post.url} />
+                    ))
+                }
+    </section>    
 </Layout>
 <style>
     /* small */
@@ -55,30 +76,8 @@ const pageTitle = "Milky-Way";
         background-color: #584966;
         color: #fdebf3;
         border-radius: 6px;
-        font-family: 'Josefin Sans', sans-serif;
         font-weight: 600;
         padding: 0.3em 0.6em 0.2em;
-    }
-
-    /* Button */
-    button {
-        background: rgba(0,0,0,0);
-        border: 2px solid #78c2ad;
-        border-radius: 8px;
-        color: #fdebf3;
-        font: 600 16px 'Josefin Sans', sans-serif;
-        padding: 8px 16px;
-        transition: background-color 0.4s, color 0.4s;
-    }
-
-    button:hover {
-        background-color: #78c2ad;
-        color: #1e1e2e;
-        cursor: pointer;
-    }
-
-    .button {
-        text-align: center;
     }
 
     /* Skill images */

@@ -1,23 +1,13 @@
 ---
+const author = "mdohr07"
 const year = new Date().getFullYear();
 ---
 <footer>
     <div>
-        <small>&copy; {year} Milky-Way by <a href="https://github.com/ttomczak3">ttomczak</a>. All Rights Reserved.</small>
+        <small>
+            &copy; {year}&nbsp;{author}. All Rights Reserved.
+            Powerded by 
+            <a href="https://astro.build" target="_blank" rel="noopener noreferrer"><img src="https://api.iconify.design/logos:astro.svg?color=%23888888" alt="Astro logo" style="margin-bottom: -6px;"></a></small>
     </div>
 </footer>
-<style>
-    div {
-        margin: 4rem 0;
-        text-align: center;
-    }
 
-    small {
-        font-family: 'Josefin Sans', sans-serif; 
-    }
-
-    small a {
-        color: #375a7f;
-        text-decoration: none;
-    }
-</style>

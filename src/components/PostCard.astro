@@ -1,0 +1,32 @@
+---
+/* import { date } from 'astro/zod'; */
+
+const { frontmatter, url } = Astro.props;
+const {title, date, author, image, description, category} = frontmatter;
+
+import {formatDate} from '../js/formatDate.js'
+---
+
+
+<article class="card">
+
+    <div class="post-info">
+        <date>
+            {formatDate(date)}
+        </date>
+         
+    <h2 class="entrytitle">
+        <a href={url}>{title} </a>     
+    </h2>
+   
+    <a href={`/category/${category}/`} class="category">{category}</a>
+    </div>
+
+    <!--
+    <p>{description}</p>
+    <a href={url}>Weiter lesen...</a>
+     -->
+
+
+
+</article>

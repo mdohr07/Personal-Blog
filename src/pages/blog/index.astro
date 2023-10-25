@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PostCard from '../../components/PostCard.astro';
+
+// JavaScript
+import { formatBlogPosts } from '../../js/sortPosts';
+const allPosts = await Astro.glob("./posts/*md");
+const formattedPosts = formatBlogPosts(allPosts);
+const {pageTitle, description} = Astro.props;
+---
+<Layout pageTitle={pageTitle} >
+
+    <h2>Einträge</h2>
+
+    <section class="post-list"aria-label="List of blog posts">
+
+               <!-- Loop through posts -->
+               {
+                formattedPosts.map((post) => (
+                    <PostCard 
+                    frontmatter={post.frontmatter} 
+                    url={post.url} />
+                    ))
+                }
+    </section>    
+
+        <!--
+       <PostCard frontmatter={allPosts[0].frontmatter} 
+       url={allPosts[0].url} 
+       tagType="h2" />  -->
+</Layout>
+

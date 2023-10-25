@@ -1,0 +1,37 @@
+---
+import Layout from './Layout.astro';
+import { ViewTransitions } from 'astro:transitions';
+import { fade } from 'astro:transitions';
+import { formatDate } from '../js/formatDate'
+
+// utils import
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+import '../styles/global.css';
+
+// Site titles, description, etc.
+
+const { frontmatter } = Astro.props;
+const { title, description, date, category, author, image } = frontmatter;
+---
+
+<Layout {title} {description} >
+    <header>
+        <div class="blog-container">
+        </div>
+        <!-- <img src="" alt=""> -->
+    </header>
+    
+    <!-- Post content -->
+    <div class="post-content"> <p>{ formatDate(date) } - <a href={`/category/${category}`} class="badge">{category}</a></p>
+        <h1>{title}</h1>
+        <div class="content">
+            <!-- Blog content goes into slot below -->
+            <slot />
+            <p>By <a href={`/author/${author}`}>{author}</a></p>
+
+        </div>
+        <div class="sidebar"></div>
+    </div>
+</Layout>

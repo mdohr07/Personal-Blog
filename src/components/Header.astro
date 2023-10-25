@@ -1,6 +1,19 @@
 ---
 import Navigation from './Navigation.astro';
+
+const {pageTitle, description} = Astro.props;
+const formattedTitle = description ? `${pageTitle} - ${description}` : pageTitle;
 ---
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/alien.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content="{description}" />
+    <title>{pageTitle} // {formattedTitle}</title>
+</head>
+
 <header>
     <nav transition:persist >
         <Navigation />

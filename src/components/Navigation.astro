@@ -1,14 +1,18 @@
 ---
-import ThemeIcon from './ThemeIcon.astro';
+const pageTitle = "My Astro Site";
 ---
 <div class="nav-bar">
     <div class="title-link">
-        <a href="/">Milky-Way</a>
+        <a href="/">{ pageTitle }</a>
     </div>
     <div class="nav-links">
-        <a href="/works/">Works</a>
-        <a href="/posts/">Posts</a>
-        <a href="https://github.com/ttomczak3/Milky-Way" target="_blank">GitHub</a>
-        <ThemeIcon />
+        <ul>
+            <li><a href="/blog/">Blog</a></li>
+            <li> <a href="https://github.com/ttomczak3/Milky-Way" target="_blank">GitHub</a></li>
+        </ul>
+        
+        
+       
+
     </div>
 </div>
