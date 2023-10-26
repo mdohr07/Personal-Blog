@@ -8,11 +8,11 @@ const allPosts = await Astro.glob("./posts/*md");
 const formattedPosts = formatBlogPosts(allPosts);
 const {pageTitle, description} = Astro.props;
 ---
-<Layout pageTitle={pageTitle} >
+<Layout pageTitle="mdohr" description="Mein Web Development Blog">
 
     <h2>Einträge</h2>
 
-    <section class="post-list"aria-label="List of blog posts">
+    <section class="post-list" aria-label="List of blog posts">
 
                <!-- Loop through posts -->
                {

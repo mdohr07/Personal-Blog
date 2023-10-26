@@ -16,17 +16,16 @@ import {formatDate} from '../js/formatDate.js'
         </date>
          
     <h2 class="entrytitle">
-        <a href={url}>{title} </a>     
+        <a href={url}>{title} </a> <br>    
+            <a href={`/category/${category}/`} class="category">[ {category} ]</a>
     </h2>
    
-    <a href={`/category/${category}/`} class="category">{category}</a>
+   
     </div>
 
     <!--
     <p>{description}</p>
     <a href={url}>Weiter lesen...</a>
      -->
-
-
 
 </article>

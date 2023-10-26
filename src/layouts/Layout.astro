@@ -12,23 +12,12 @@ import '../styles/global.css';
 const { pageTitle, description } = Astro.props;
 const formattedTitle = description ? `${pageTitle} - ${description}` : pageTitle;
 ---
-<!DOCTYPE html>
-<html transition:animate="none" lang="en">
-	<head>
-        <meta charset="utf-8" />
-        <meta name="description" content="Astro description">
-        <meta name="viewport" content="width=device-width" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.png" />
-        <meta name="generator" content={Astro.generator} />
-        <title>{pageTitle}</title>
+<Header {pageTitle} {description}/>
+
         <ViewTransitions />
-	</head>
 	<body>
-        <Header {pageTitle} {description}/>
         <main transition:animate={fade({ duration: '0.4s' })} >
 	    <slot />
             <Footer />
         </main>
-       
-	</body>
-</html>
+

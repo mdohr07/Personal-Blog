@@ -1,7 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-const pageTitle = "My Astro Site";
-const description = "Beschreibung"
+const pageTitle = "mdohr";
 
 import PostCard from '../components/PostCard.astro';
 import { formatBlogPosts } from '../js/sortPosts';
@@ -10,57 +9,33 @@ const formattedPosts = formatBlogPosts(allPosts, {
     limit: 3,
 });
 ---
-<Layout pageTitle={pageTitle} >
-    <!-- <div class="gif">
-        <img width="300" height="259" alt="RaccoonSpaceGif" src="/space.webp"/>
-    </div> -->
-    <h1>{ pageTitle }</h1>
+<Layout pageTitle={pageTitle} description="Frontend Development">
+    
+    <h1>{ pageTitle } <span>07</span> <br><small>Frontend Development</small></h1>
     <!-- <small>Frontend Developer</small> -->
-    <h2>About</h2>
-    <p>
-        Praesent malesuada mi nisi, quis tempus magna venenatis ut.
-        Suspendisse tempor sem at scelerisque congue. Curabitur mollis,
-        mi id molestie finibus, metus sem sagittis nunc, euismod feugiat orci neque non lorem.
-        Aenean sollicitudin erat eu molestie tempus. Nunc ac eros elementum, fermentum lacus at,
-        pellentesque mauris. Suspendisse eros neque, interdum euismod consectetur convallis,
-        porttitor at massa. <a href="http://" target="_blank" rel="noopener noreferrer">Phasellus</a> a ultrices arcu. Donec viverra, lorem in pellentesque euismod,
-        libero justo gravida nibh, non ultricies justo purus ultrices est.
+   <p>Hallo 👋</p>
+   <p>ich bin eine erfahrene Webentwicklerin mit einem Hintergrund in
+    Kunst und Grafikdesign. Mein Schwerpunkt liegt auf 
+    ästhetisch ansprechenden Front-End-Designs. <br>
+    Seit 1999 entwickle ich Websites und lasse mich dabei gerne von 
+    Retro-Spielen und dem "Old Web" inspirieren.
     </p>
     <p>
-        Ut at interdum dui. Donec ut ante ex. Maecenas id ex eget nibh consequat accumsan.
-        Proin semper semper dui nec feugiat. Donec cursus neque id aliquet finibus. Morbi
-        facilisis turpis nibh, nec dictum orci dictum nec. In hac habitasse platea dictumst.
-        Maecenas mollis turpis vitae turpis bibendum, vitae tristique arcu eleifend.
+    Ich mag es, meine Grenzen auszutesten und professionelles sowie
+    persönliches Wachstum liegen mir am Herzen. Neugierige sind herzlich 
+    dazu eingeladen, auf den Button unten zu klicken 🤓.
     </p>
 
         <a href="/works/">
-            <button>My portfolio</button>
+            <button>Kontakt</button>
         </a>
 
-    <h2>Skills</h2>
-    <div class="link-images">
-        <img width="46" height="46" alt="C#" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"/>
-        <img width="46" height="46" alt="DotNetCore" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"/>
-        <img width="46" height="46" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"/>
-        <img width="46" height="46" alt="Angular" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg"/>
-        <img width="46" height="46" alt="Bootstrap" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"/>
-        <img width="46" height="46" alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"/>
-        <img width="46" height="46" alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"/>
-        <img width="46" height="46" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/>
-        <img width="46" height="46" alt="PostGres" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"/>
-    </div>
-    <h2>Interests</h2>
-    <p>
-        Ut at interdum dui. Donec ut ante ex. Maecenas id ex eget nibh consequat accumsan.
-        Proin semper semper dui nec feugiat. Donec cursus neque id aliquet finibus. Morbi
-        facilisis turpis nibh, nec dictum orci dictum nec. In hac habitasse platea dictumst.
-        Maecenas mollis turpis vitae turpis bibendum, vitae tristique arcu eleifend.
-    </p>
-
-    <h4>Neueste Blogeinträge</h4>
+    <h3>Portfolio</h3>
+    <p>Meine Projekte kommen hier hin</p>
+    
     <!-- <p>{ description }</p> -->
-    <section class="index-post-list" aria-label="List of blog posts">
-
+    <section class="post-list" aria-label="List of blog posts">
+        <h4>Neueste Blogeinträge</h4>
                {
                 formattedPosts.map((post) => (
                     <PostCard 
@@ -68,23 +43,15 @@ const formattedPosts = formatBlogPosts(allPosts, {
                     url={post.url} />
                     ))
                 }
-    </section>    
+               
+    </section>
 </Layout>
 <style>
-    /* small */
-    small {
-        background-color: #584966;
-        color: #fdebf3;
-        border-radius: 6px;
-        font-weight: 600;
-        padding: 0.3em 0.6em 0.2em;
-    }
 
     /* Skill images */
-    .link-images img {
-        margin: 16px 4px;
-    }
-
+        .link-images img {
+            margin: 16px 4px;
+        }
     @media only screen and (max-width: 600px) {
         .link-images img {
             height: 30px;
