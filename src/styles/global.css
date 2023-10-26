@@ -87,7 +87,7 @@ a:visited {
 }
 
 a:hover {
-    color: #78DB97;
+    color: #E8FFEE;
     transition: 0.3s ease;
 }
 
@@ -225,7 +225,7 @@ a.category {
 }
 
 .entrytitle a:hover, a:hover.category {
-    color: #78DB97;
+    color: #E8FFEE;
     transition: 0.3s ease;
 }
 

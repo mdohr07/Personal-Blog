@@ -1,5 +1,5 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
+import { ViewTransitions, slide } from 'astro:transitions';
 import { fade } from 'astro:transitions';
 
 // utils import
@@ -16,7 +16,7 @@ const formattedTitle = description ? `${pageTitle} - ${description}` : pageTitle
 
         <ViewTransitions />
 	<body>
-        <main transition:animate={fade({ duration: '0.4s' })} >
+        <main transition:animate={slide({ duration: '0.2s' })} >
 	    <slot />
             <Footer />
         </main>
