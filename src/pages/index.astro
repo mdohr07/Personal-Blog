@@ -31,9 +31,12 @@ const formattedPosts = formatBlogPosts(allPosts, {
     <h3>Portfolio</h3>
     <div class="projects">
         <section class="project-image">
-           
             <img src="/img/cover-galaxygroove.png" id="slide1" alt="Galaxy Groove Screenshot cover image">
+
                    <!--
+                    <button class="carousel-button prev">◀</button>
+                    <button class="carousel-button next">▶</button>
+
                     <img src="/img/galaxygroove1.png" id="slide2" alt="Galaxy Groove Screenshot 1">
                     <img src="/img/galaxygroove2.png" id="slide3" alt="Galaxy Groove Screenshot 2">
                     <img src="/img/galaxygroove3.png" id="slide4" alt="Galaxy Groove Screenshot 3">
@@ -82,6 +85,12 @@ const formattedPosts = formatBlogPosts(allPosts, {
         padding:0;
     }
 
+    .project-image img {
+        max-width: 100%;
+        max-height: 75%;
+        object-fit: cover;
+    }
+
     .projects .tech {
         padding: 0px 20px 0px 20px;
         margin: 0;
@@ -102,12 +111,6 @@ const formattedPosts = formatBlogPosts(allPosts, {
     .repo a::after {
         content: '[↗]';
         margin-left: 5px;
-    }
-
-    .project-image img {
-        max-width: 100%;
-        max-height: 75%;
-        object-fit: cover;
     }
 
     /* Skill images */
