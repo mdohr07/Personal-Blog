@@ -30,19 +30,21 @@ const formattedPosts = formatBlogPosts(allPosts, {
     <!-- Portfolio -->
     <h3>Portfolio</h3>
     <div class="projects">
-        <section class="project-image">
-            <img src="img/cover-galaxygroove.png" id="slide1" alt="Galaxy Groove Screenshot cover image">
 
-                   <!--
-                    <button class="carousel-button prev">◀</button>
-                    <button class="carousel-button next">▶</button>
+            <div class="slideshow-container">
+                    <div class="slideshow-wrapper">
 
-                    <img src="/img/galaxygroove1.png" id="slide2" alt="Galaxy Groove Screenshot 1">
-                    <img src="/img/galaxygroove2.png" id="slide3" alt="Galaxy Groove Screenshot 2">
-                    <img src="/img/galaxygroove3.png" id="slide4" alt="Galaxy Groove Screenshot 3">
-                    <img src="/img/galaxygroove4.png" id="slide5" alt="Galaxy Groove Screenshot 4">
-                    -->
-        </section>
+                                <img src="/img/cover-galaxygroove.png" alt="Galaxy Groove Screenshot cover image">
+
+                                <img src="/img/galaxygroove1.png" alt="Galaxy Groove Screenshot 1">
+
+                                <img src="/img/galaxygroove2.png" alt="Galaxy Groove Screenshot 2">
+
+                                <img src="/img/galaxygroove3.png" alt="Galaxy Groove Screenshot 3">
+
+                                <img src="/img/galaxygroove4.png" alt="Galaxy Groove Screenshot 4">
+                    </div>       
+            </div>
 
         <section class="tech">
             <p>
@@ -54,7 +56,9 @@ const formattedPosts = formatBlogPosts(allPosts, {
         </section>
 
         <section class="repo">
-            <a href="#">Repository</a>
+            <a href="https://mdohr07.github.io/galaxygroove" target="_blank">Live Website</a>
+            <a href="https://github.com/mdohr07/galaxygroove" target="_blank">Repository</a>
+            
         </section>
            
     </div>
@@ -84,38 +88,83 @@ const formattedPosts = formatBlogPosts(allPosts, {
         padding:0;
     }
 
-    .project-image img {
-        max-width: 100%;
-        max-height: 75%;
-        object-fit: cover;
-    }
-
     .projects .tech {
         padding: 0px 20px 0px 20px;
         margin: 0;
         text-align: center;
         background-color: #E8FFEE;
+        border-bottom: 2px solid #5C5B77;
     }
 
+    .projects .tech img {
+        width: 32px;
+        margin: 0 5px 0 5px;
+    }
     .projects .repo {
         color: #78DB97;
         background: transparent;
-        margin-top: 10px;
+        margin-top: 10px;        
         text-align: right;
     }
-
     .projects .repo a {
         text-decoration: none;
     }
+
+    .projects .repo a:first-child {
+        margin-right: 20px;
+    }
+
     .repo a::after {
         content: '[↗]';
         margin-left: 5px;
     }
 
-    /* Skill images */
-        .link-images img {
-            margin: 16px 4px;
+    /* Slideshow */
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slideshow-wrapper {
+        width: 100%;
+        display: flex;
+        animation: slide 15s infinite;
+    }
+
+    .slideshow-wrapper img {
+        max-width: 100%;
+        max-height: 75%;
+        object-fit: cover;
+    }
+
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
         }
+        25% {
+            transform: translateX(0);
+        }
+        30% {
+            transform: translateX(-100%);
+        }
+        50% {
+            transform: translateX(-100%);
+        }
+        55% {
+            transform: translateX(-200%);
+        }
+        75% {
+            transform: translateX(-200%);
+        }
+        80% {
+            transform: translateX(-300%);
+        }
+        100% {
+            transform: translateX(-300%);
+        }
+    }
+    
     @media only screen and (max-width: 600px) {
         .link-images img {
             height: 30px;
