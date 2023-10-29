@@ -6,7 +6,7 @@ date: 2023-10-18
 author: mdohr07
 image: {}
 draft: false
-description: Mein erster Blog Eintrag
+description: Wer ich bin, warum es diesen Blog gibt und was es darin zu erwarten gibt
 category: Allgemein
 ---
 
