@@ -10,8 +10,6 @@ description: Entdecke meine spannende Reise von der Kunst zur Frontend-Entwicklu
 category: Allgemein
 ---
 
-# Einblicke in meine Lernerfahrungen: Eine Reise von der Kunst zur Frontend-Entwicklung
-
 Es war mir eigentlich danach, sofort auf eigene Faust loszulegen, ein Portfolio zu bauen und nach Stellenangeboten zu suchen. Ganz schön enthusiastisch von mir. Aber da es für mich schon recht lang her war, dass ich mich mit dem Thema auseinandergesetzt habe, hielt ich es für klüger bzw. vorausschauender, eine Weiterbildung zu machen. Die Weiterbildung war "Web Development Expert" an der IU im Fernstudium, Vollzeit. Der Gedanke dahinter war, dass ich dadurch nicht nur vorhandenes Wissen auffrischen kann, sondern mich auch in Themen weiterbilde, in denen ich wenig oder gar keine Erfahrung habe, sowie Dinge, die ich in der Zwischenzeit verpasst habe - zum Beispiel Responsiveness. Wobei ich das Thema zumindest schon etwas kennengelernt habe, als ich meine persönliche Website auf Neocities erstellt habe. Da wollte ich zwar das Retro-Gefühl des alten Webs, aber keine "mobile-hostility" 💥 
 
 ## Überwindung der Theorie-Herausforderung
