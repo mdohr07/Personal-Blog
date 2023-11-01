@@ -1,0 +1,162 @@
+---
+const { frontmatter, url } = Astro.props;
+---
+
+<div class="projects">
+    <h2>Portfolio</h2>
+
+<!-- #1 -------------------->
+<div class="project">
+    <a href="https://mdohr07.github.io/coffeestop" target="_blank" rel="noopener noreferrer">
+        <img src="/img/cover-coffeestop.png" alt="Galaxy Groove Screenshot">
+    </a>
+
+    <div class="right">
+        <section class="project-about">
+            <h6>Coffee Stop</h6> 
+            <span class="tech">
+                <img src="/icons8-css-48.png" alt="CSS">
+                <img src="/icons8-sass-avatar-48.png" alt="SCSS">
+                <img src="/icons8-html-48.png" alt="HTML">
+                <img src="/icons8-javascript-48.png" alt="JavaScript">
+            </span>
+
+            <p>Coffee Stop ist ein imaginäres Geschäftsprojekt für ein Cycling Café, das eine großartige Mischung aus Kaffee und Fahrradservice bietet.</p>
+        </section>
+
+        <span class="repo">
+            <a href="https://github.com/mdohr07/coffeestop" target="_blank">Repository</a>  
+        </span>
+    </div>
+</div>
+
+<!-- #2 -------------------->
+        <div class="project">
+            <a href="https://mdohr07.github.io/galaxygroove" target="_blank" rel="noopener noreferrer">
+                <img src="/img/cover-galaxygroove.png" alt="Galaxy Groove Screenshot">
+            </a>
+
+            <div class="right">
+                <section class="project-about">
+                    <h6>Galaxy Groove</h6> 
+                    <span class="tech">
+                        <img src="/icons8-css-48.png" alt="CSS">
+                        <img src="/icons8-sass-avatar-48.png" alt="SCSS">
+                        <img src="/icons8-html-48.png" alt="HTML">
+                        <img src="/icons8-javascript-48.png" alt="JavaScript">
+                    </span>
+
+                    <p>Galaxy Groove ist ein Konzept für eine Website, die eine Online-Community mit einem Retro-Weltraumspiel kombiniert.</p>
+                </section>
+
+                <span class="repo">
+                    <a href="https://github.com/mdohr07/galaxygroove" target="_blank">Repository</a>  
+                </span>
+            </div>
+        </div>
+
+<!-- #3 -------------------->
+        <div class="project">
+            <a href="https://mdohr07.neocities.org" target="_blank" rel="noopener noreferrer">
+                <img src="/img/mdohr-neocities_full-small.png" alt="Galaxy Groove Screenshot">
+            </a>
+
+            <div class="right">
+                <section class="project-about">
+                    <h6>Persönliche Website</h6> 
+                    <span class="tech">
+                        <img src="/icons8-css-48.png" alt="CSS">
+                        <img src="/icons8-html-48.png" alt="HTML">
+                    </span>
+
+                    <p>Mein kleiner Platz auf Neocities in den weiten des Internets, ganz wie früher. 
+                       <br>Na ja, fast.
+                    </p>
+                </section>
+
+                <span class="repo">
+                    <s>Repository</s> 
+                </span>
+            </div>
+        </div>
+
+
+
+
+<style>
+
+    /* projects container */
+    .projects {
+        background-image: url('public/stardust.png');
+    }
+    .projects h2 {
+            margin-bottom: 1rem;
+            color: #5C5B77;
+        }
+    
+        .projects h6 {
+            margin: 0px 0 5px 0px;
+        }
+    
+    .project {
+        display: flex;
+        gap: 15px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .project img {
+        width: 300px;
+        max-width: 100%;
+        margin-top: 5px;
+        filter: brightness(0.9);
+    }
+
+    .project img:hover {
+        filter: brightness(1);
+        transition: 0.5s ease;
+    }
+    
+    .right {
+        display: grid;
+        width: 100%;
+        padding: 5px 0 0px 0px;
+        max-width: 100%;
+    }
+    .tech {
+        width: 100%;
+        height: 35px;
+    }
+    .tech img {
+        width: 32px;
+        height: 32px;
+        padding: 0px;
+        margin: 10px 5px 0 0px;
+    }
+    .repo {
+        height: 25px;
+        text-align: left;  
+        color: #78DB97;   
+        }
+
+        .repo a {
+            text-decoration: none;
+        }
+    
+        .repo a:first-child {
+            margin-right: 20px;
+        }
+    
+        .repo a::after {
+            content: '[↗]';
+            margin-left: 5px;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .link-images img {
+                height: 30px;
+                width: 30px;
+                margin: 16px 1px;
+            }
+        }
+    </style>
+    
