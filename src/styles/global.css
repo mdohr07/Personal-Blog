@@ -180,6 +180,7 @@ button, a button {
     letter-spacing: 2px;
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 button:hover {
