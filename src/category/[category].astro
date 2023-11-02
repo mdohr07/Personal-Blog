@@ -1,0 +1,28 @@
+---
+import type { GetStaticPaths } from "astro";
+export async function getStaticPaths() {
+    return [
+    {
+        params: { category: "Allgemein" },
+        props: { name: "Allgemein"},
+    },
+    {
+        props: { name: "Persönliche Entwicklung"},
+    },
+    {
+        props: { name: "Lernfortschritte"},
+    },
+    {
+        props: { name: "Technische Einblicke"},
+    },
+    {
+        props: { name: "Projekte"},
+    },
+    ]
+}
+
+const { category } = Astro.params;
+const { name } = Astro.props;
+---
+
+{ name }
