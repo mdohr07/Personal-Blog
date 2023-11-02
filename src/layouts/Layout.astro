@@ -1,6 +1,5 @@
 ---
 import { ViewTransitions, slide } from 'astro:transitions';
-import { fade } from 'astro:transitions';
 
 // utils import
 import Header from '../components/Header.astro';
@@ -10,14 +9,16 @@ import '../styles/global.css';
 
 // Site titles and description
 const { pageTitle, description } = Astro.props;
-const formattedTitle = description ? `${pageTitle} - ${description}` : pageTitle;
 ---
 <Header {pageTitle} {description}/>
 
         <ViewTransitions />
 	<body>
-        <main transition:animate={slide({ duration: '0.2s' })} >
+        <main>
 	    <slot />
             <Footer />
         </main>
 
+<!--
+         <main transition:animate={slide({ duration: '0.2s' })} >
+ -->

@@ -6,7 +6,6 @@ import PostCard from '../../components/PostCard.astro';
 import { formatBlogPosts } from '../../js/sortPosts';
 const allPosts = await Astro.glob("./posts/*md");
 const formattedPosts = formatBlogPosts(allPosts);
-const {pageTitle, description} = Astro.props;
 ---
 <Layout pageTitle="mdohr" description="Mein Web Development Blog">
 

@@ -9,7 +9,6 @@ body {
     margin: 0 auto;
     font-family:  monospace;
     font-size: 16px;
-    text-align: justify;
 }
 
 /* Headings */
@@ -201,12 +200,6 @@ footer {
 }
 
 /* Blog */
-.post-content h1 {
-    text-align: justify;
-    text-justify: distribute;
-    letter-spacing: 2px;
-}
-
 /* Titles and categories in the entry-list */
 .entrytitle a {
     font-size: 16px;
