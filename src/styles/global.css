@@ -278,4 +278,8 @@ a.category {
     .nav-links a {
         margin: 0 11px;
     }
+
+    h1 {
+        font-size: 28px;
+    }
 }
