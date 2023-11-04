@@ -213,6 +213,14 @@ a.category {
     color: #5C5B77;
 }
 
+.badge::before {
+    content: '[';
+}
+
+.badge::after {
+    content: ']';
+}
+
 .entrytitle a:hover, a:hover.category {
     color: #E8FFEE;
     transition: 0.3s ease;

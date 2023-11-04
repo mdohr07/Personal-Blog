@@ -1,0 +1,52 @@
+---
+import { slugify } from '../../js/helpers';
+import { formatBlogPosts } from '../../js/sortPosts';
+
+import Layout from '../../layouts/Layout.astro';
+import PostCard from '../../components/PostCard.astro';
+
+export async function getStaticPaths() {
+    const allPosts = await Astro.glob("../blog/posts/*md");
+    const formattedPosts = formatBlogPosts(allPosts);
+    const allAuthors = [
+        ...new Set(formattedPosts.map((post) => 
+        post.frontmatter.author).flat()),   
+    ];
+    return allAuthors.map((author) => {
+        const authorPosts = formattedPosts.filter((post) =>
+        post.frontmatter.author === author);
+        return {
+            params: { author: slugify(author)},
+            props: {
+                authorName: author,
+                posts: authorPosts,
+            }
+        }
+    })
+}
+
+const { author } = Astro.params;
+const { posts, authorName } = Astro.props;
+---
+
+<Layout title={ authorName } pageTitle="mdohr" description="Mein Web Development Blog">
+
+    <h2>Einträge von { authorName }</h2>
+
+    <section class="post-list" aria-label={`Einträge von ${authorName}`}>
+
+
+               {
+                posts.map((post) => (
+                    <PostCard 
+                    frontmatter={post.frontmatter} 
+                    url={post.url} />
+                    ))
+                } 
+    </section>    
+
+        <!--
+       <PostCard frontmatter={allPosts[0].frontmatter} 
+       url={allPosts[0].url} 
+       tagType="h2" />  -->
+</Layout>
