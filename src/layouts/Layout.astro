@@ -10,9 +10,9 @@ import '../styles/global.css';
 // Site titles and description
 const { pageTitle, description } = Astro.props;
 ---
+<ViewTransitions />
 <Header {pageTitle} {description}/>
 
-        <ViewTransitions />
 	<body>
         <main>
 	    <slot />

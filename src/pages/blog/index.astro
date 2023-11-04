@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import PostCard from '../../components/PostCard.astro';
 
-// JavaScript
+// Format Posts
 import { formatBlogPosts } from '../../js/sortPosts';
 const allPosts = await Astro.glob("./posts/*md");
 const formattedPosts = formatBlogPosts(allPosts);

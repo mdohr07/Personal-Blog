@@ -1,12 +1,13 @@
 ---
 import Layout from './Layout.astro';
-import { formatDate } from '../js/formatDate'
+
+// Helpers
+import { formatDate, slugify } from '../js/helpers';
 
 import '../styles/global.css';
 
-const pageTitle = "mdohr";
 // Site titles, description, etc.
-
+const pageTitle = "mdohr";
 const { frontmatter } = Astro.props;
 const { title, description, date, category, author, image } = frontmatter;
 ---
@@ -19,14 +20,25 @@ const { title, description, date, category, author, image } = frontmatter;
     </header>
     
     <!-- Post content -->
-    <div class="post-content"> <p>{ formatDate(date) } - <a href={`/category/${category}`} class="badge">{category}</a></p>
+    <div class="post-content"> <p>{ formatDate(date) } - 
+        <a href={`./category/${slugify(category)}/`} class="badge">{category}</a>
+
+    </p>
         <h1>{title}</h1>
         <div class="content">
             <!-- Blog content goes into slot below -->
             <slot />
-            <p>By <a href={`/author/${author}`}>{author}</a></p>
+            <p>By <a href={`/author/${slugify(author)}`}>{author}</a></p>
 
         </div>
         <div class="sidebar"></div>
     </div>
 </Layout>
+
+<!--
+            <ul>
+            {allCategoriesData.map(category => (
+                <li>{category.name}</li>
+            ))}
+        </ul>
+ -->

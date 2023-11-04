@@ -1,0 +1,63 @@
+---
+import type { GetStaticPaths } from "astro";
+import { slugify } from '../../../../js/helpers';
+import { formatBlogPosts } from '../../../../js/sortPosts';
+
+import Layout from '../../../../layouts/Layout.astro';
+import PostCard from '../../../../components/PostCard.astro';
+
+const { category } = Astro.params;
+const { name } = Astro.props;
+const allPosts = await Astro.glob("../../posts/*md");
+const formattedPosts = formatBlogPosts(allPosts);
+const catPosts = formattedPosts. filter((post) => slugify
+(post.frontmatter.category) === category);
+
+export async function getStaticPaths() {
+    return [/* returns collection of objects */
+    {
+        params: { category: slugify("Allgemein") },
+        props: { name: "Allgemein"},
+    },
+    {
+        params: { category: slugify("Persönliche Entwicklung") },
+        props: { name: "Persönliche Entwicklung"},
+    },
+    {
+        params: { category: slugify("Lernfortschritte") },
+        props: { name: "Lernfortschritte"},
+    },
+    {
+        params: { category: slugify("Technische Einblicke") },
+        props: { name: "Technische Einblicke"},
+    },
+    {
+        params: { category: slugify("Projekte") },
+        props: { name: "Projekte"},
+    }
+    ];
+}
+---
+
+<Layout title={ name } pageTitle="mdohr" description="Mein Web Development Blog">
+
+    <h2>Einträge über {name}</h2>
+
+    <section class="post-list" aria-label={`Einträge über ${name}`}>
+
+
+        <!-- Looping throught Posts by category  -->
+               {
+                catPosts.map((post) => (
+                    <PostCard 
+                    frontmatter={post.frontmatter} 
+                    url={post.url} />
+                    ))
+                }
+    </section>    
+
+        <!--
+       <PostCard frontmatter={allPosts[0].frontmatter} 
+       url={allPosts[0].url} 
+       tagType="h2" />  -->
+</Layout>

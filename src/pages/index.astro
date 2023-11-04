@@ -5,6 +5,7 @@ const pageTitle = "mdohr";
 import PostCard from '../components/PostCard.astro';
 import Projects from '../components/Projects.astro';
 import { formatBlogPosts } from '../js/sortPosts';
+
 const allPosts = await Astro.glob("./blog/posts/*md");
 const formattedPosts = formatBlogPosts(allPosts, {
     limit: 3,

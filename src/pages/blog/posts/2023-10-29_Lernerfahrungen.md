@@ -5,9 +5,8 @@ title: Einblicke in meine Lernerfahrungen - Eine Reise von der Kunst zur Fronten
 date: 2023-10-29
 author: mdohr07
 image: {}
-draft: false
 description: Entdecke meine spannende Reise von der Kunst zur Frontend-Entwicklung in meinem neuen Blogpost. Erfahre, wie ich die Theorie-Herausforderung gemeistert habe, welche wertvollen Ressourcen mir geholfen haben und wie ich meine Lernreise fortsetze. Tauche ein in meine Welt der kreativen Transformation und lerne, wie du deine Leidenschaft in technische Fähigkeiten umwandeln kannst. 👩‍💻✨
-category: Allgemein
+category: Persönliche Entwicklung
 ---
 
 Es war mir eigentlich danach, sofort auf eigene Faust loszulegen, ein Portfolio zu bauen und nach Stellenangeboten zu suchen. Ganz schön enthusiastisch von mir. Aber da es für mich schon recht lang her war, dass ich mich mit dem Thema auseinandergesetzt habe, hielt ich es für klüger bzw. vorausschauender, eine Weiterbildung zu machen. Die Weiterbildung war "Web Development Expert" an der IU im Fernstudium, Vollzeit. Der Gedanke dahinter war, dass ich dadurch nicht nur vorhandenes Wissen auffrischen kann, sondern mich auch in Themen weiterbilde, in denen ich wenig oder gar keine Erfahrung habe, sowie Dinge, die ich in der Zwischenzeit verpasst habe - zum Beispiel Responsiveness. Wobei ich das Thema zumindest schon etwas kennengelernt habe, als ich meine persönliche Website auf Neocities erstellt habe. Da wollte ich zwar das Retro-Gefühl des alten Webs, aber keine "mobile-hostility" 💥 
@@ -18,7 +17,7 @@ Die größte Herausforderung für mich war der Theorie-Anteil. Ich bin jemand, d
 
 ## Wertvolle Ressourcen und Lernstrategien
 
-Beim Thema Java war für mich die Abwesenheit von Übungsaufgaben und die Art der Code-Beispiele ein Problem. Deswegen habe ich mich auf die Suche nach Tutorials auf YouTube begeben. Dabei waren für mich die Videos von [Jonas Keil](https://www.youtube.com/@JonasKeil){:target="_blank"} sehr hilfreich, weil sie gut und verständlich erklärt waren. Durch die Anleitung von Jonas ergaben einige Dinge gleich viel mehr Sinn. Eine andere Ressource, die aber erst zum Ende der Weiterbildung ins Spiel kam, war der Kanal von [Coder Coder](https://www.youtube.com/thecodercoder){:target="_blank"}. Ihre Tutorials haben mir bei meinem Praxisprojekt geholfen, das ich zusammen mit einem Projektbericht einreichen musste, um zu bestehen. Bei Coder Coder geht es einzig und allein ums Frontend, und durch die sympathische Präsentation und die Tatsache, dass ich mich mit ihrem Werdegang identifiziert fühle, macht den Kanal von Coder Coder zu einem meiner Favoriten, wenn es um (Frontend) Web Development geht 🙌. 
+Beim Thema Java war für mich die Abwesenheit von Übungsaufgaben und die Art der Code-Beispiele ein Problem. Deswegen habe ich mich auf die Suche nach Tutorials auf YouTube begeben. Dabei waren für mich die Videos von [Jonas Keil](https://www.youtube.com/@JonasKeil) sehr hilfreich, weil sie gut und verständlich erklärt waren. Durch die Anleitung von Jonas ergaben einige Dinge gleich viel mehr Sinn. Eine andere Ressource, die aber erst zum Ende der Weiterbildung ins Spiel kam, war der Kanal von [Coder Coder](https://www.youtube.com/thecodercoder). Ihre Tutorials haben mir bei meinem Praxisprojekt geholfen, das ich zusammen mit einem Projektbericht einreichen musste, um zu bestehen. Bei Coder Coder geht es einzig und allein ums Frontend, und durch die sympathische Präsentation und die Tatsache, dass ich mich mit ihrem Werdegang identifiziert fühle, macht den Kanal von Coder Coder zu einem meiner Favoriten, wenn es um (Frontend) Web Development geht 🙌. 
 
 ## Zeitmanagement und Motivation
 
