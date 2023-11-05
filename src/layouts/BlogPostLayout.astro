@@ -13,7 +13,7 @@ const { frontmatter } = Astro.props;
 const { title, description, date, category, author, image } = frontmatter;
 ---
 
-<Layout {pageTitle} {description} />
+<Layout {pageTitle} {description} >
 
     <!-- Post content -->
     <p>{ formatDate(date) } - 
@@ -25,4 +25,4 @@ const { title, description, date, category, author, image } = frontmatter;
             <slot />
             <p>By <a href={`/author/${slugify(author)}`}>{author}</a></p>
 
-<Footer />
+</Layout>
