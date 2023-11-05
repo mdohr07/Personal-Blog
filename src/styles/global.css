@@ -166,14 +166,11 @@ Styling for 404-page is in 404.astro
     margin: 0 13px;
 }
 
-.card {
-    margin-top: 2rem;
-}
-
 button, a button {
     background-color: #5C5B77;
     border: 2px solid #78DB97;
     padding: 5px 20px 6px 20px;
+    margin-top: 1.5rem;
     color: #78DB97;
     letter-spacing: 2px;
     text-decoration: none;
@@ -212,6 +209,10 @@ a.category {
     color: #5C5B77;
 }
 
+a.badge{
+    color: #5C5B77;
+}
+
 .badge::before {
     content: '[';
 }
@@ -228,11 +229,12 @@ a.category {
     text-decoration: none; 
     background-color: #5C5B77;
     padding: 2px 10px;
-    margin-right: 15px;
+    margin: 0px 15px 15px 0px; 
 }
 
 .category-list:hover {
     background-color: #78DB97;
+    color: #E8FFEE;
     transition: 0.5s ease;
 }
 
@@ -275,31 +277,6 @@ a.category-list:visited {
     justify-content: baseline;
     grid-template-rows: 110px auto 110px;
     gap: 20px;
-}
-
-.hoverwrap {
-    position: relative;
-}
-
-.text-overlay {
-    width: 300px;
-    height: auto;
-    aspect-ratio: 16 / 9;
-    position: absolute;
-    top: 5px;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #E8FFEE;
-    opacity: 0;
-    transition: opacity 0.3s;
-    background-color: #78DB97;
-}
-
-.hoverwrap:hover .text-overlay {
-    opacity: 1;
 }
 
 

@@ -7,9 +7,13 @@
 
 <!-- #1 -------------------->
 <div class="project">
+    <div class="hoverwrap">
     <a href="https://mdohr07.github.io/coffeestop" target="_blank" rel="noopener noreferrer">
         <img src="/img/cover-coffeestop.png" alt="Coffee Stop Vorschaubild">
+    
+    <div class="text-overlay">Live Website [↗]</div>
     </a>
+</div>
 
     <div class="right">
         <section class="project-about">
@@ -35,9 +39,11 @@
             <div class="hoverwrap">
             <a href="https://mdohr07.github.io/galaxygroove" target="_blank" rel="noopener noreferrer">
                 <img src="/img/cover-galaxygroove.png" alt="Galaxy Groove Vorschaubild">
-                <div class="text-overlay">Live Website [↗]</div>
-            </div>
+            
+                  <div class="text-overlay">Live Website [↗]</div>
             </a>
+            </div>
+          
 
             <div class="right">
                 <section class="project-about">
@@ -60,9 +66,12 @@
 
 <!-- #3 -------------------->
         <div class="project">
+            <div class="hoverwrap">
             <a href="https://mdohr07.neocities.org" target="_blank" rel="noopener noreferrer">
-                <img src="/img/mdohr-neocities_full-small.png" alt="Neocities Website Screenshot">
-            </a>
+                <img src="/img/mdohr-neocities_full-small.png" alt="Neocities Website Screenshot">     
+            <div class="text-overlay">Live Website [↗]</div>
+        </a>
+        </div>
 
             <div class="right">
                 <section class="project-about">
@@ -78,16 +87,20 @@
                 </section>
 
                 <span class="repo">
-                    <s>Repository</s> 
+                    <s style="color: #5C5B77;">Repository</s> 
                 </span>
             </div>
         </div>
 
 <!-- #4 -------------------->
         <div class="project">
+            <div class="hoverwrap">
             <a href="/" target="_blank" rel="noopener noreferrer">
-                <img src="/logo_big.png" alt="mdohr Logo" style="object-fit: contain;">
+                <img src="/logo_big.png" alt="mdohr Logo" style="object-fit: contain; background-color: #E8FFEE">
+           
+            <div class="text-overlay">Du bist schon hier :)</div> 
             </a>
+        </div>
 
             <div class="right">
                 <section class="project-about">
@@ -112,6 +125,8 @@
             </div>
         </div>
 
+     
+
 
 
 
@@ -119,9 +134,12 @@
 
 /* projects container */
     .projects {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
         background-image: url('/stardust.png');
         padding-top: 80px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 
     .projects h2 {
@@ -181,12 +199,64 @@
             content: '[↗]';
             margin-left: 5px;
         }
+
+/* Overlay on hover */
+.hoverwrap {
+    position: relative;
+}
+
+.text-overlay {
+    width: 300px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #E8FFEE;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: #78DB97;
+}
+
+.hoverwrap:hover .text-overlay {
+    opacity: 1;
+}
         
         @media only screen and (max-width: 600px) {
             .link-images img {
                 height: 30px;
                 width: 30px;
                 margin: 16px 1px;
+            }
+
+            .project {
+                flex-direction:column;
+                gap: 0;
+            }
+
+            .projects h6 {
+                margin-top: -10px;
+            }
+
+            .project img {
+                width: 100%;
+            }
+
+            .tech img {
+            width: 26px;
+            height: 26px;
+            }
+            
+            .hoverwrap img {
+                width: 100%;
+            }
+
+            .text-overlay {
+                width: 100%;
             }
         }
     </style>
