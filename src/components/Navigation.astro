@@ -3,7 +3,12 @@
 ---
 <div class="nav-bar">
     <div class="title-link">
-        <a href="/"><img src="https://mdohr07.netlify.app/logo.png" alt="Home"></a>
+        <a href="/">
+            <div class="hoverwrap">
+                <img src="https://mdohr07.netlify.app/logo.png" alt="Home">
+            <div class="img-overlay"><img src="https://mdohr07.netlify.app/logo2.png" alt="Home"></div>
+        </a>
+    </div>
     </div>
     <div class="nav-links">
         <ul>
@@ -16,3 +21,23 @@
 
     </div>
 </div>
+
+<style>
+.hoverwrap {
+    position: relative;
+}
+
+.img-overlay {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    opacity: 0;
+    top:0;
+    transition: opacity 0.3s;
+}
+
+.hoverwrap:hover .img-overlay {
+    opacity: 1;
+    transform: rotate(5deg);
+}
+</style>

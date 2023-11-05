@@ -121,9 +121,11 @@ Styling for 404-page is in 404.astro
     background: transparent;
 }
 
+/*
 .title-link a:hover img {
     transform: rotate(5deg);
 }
+*/
 
 .nav-links ul {
     list-style-type: none;
