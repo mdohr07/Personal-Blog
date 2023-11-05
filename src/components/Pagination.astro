@@ -1,0 +1,27 @@
+---
+const { prevUrl, nextUrl } = Astro.props;
+---
+
+
+<nav aria-label="Blog Pagination">
+    {
+        prevUrl && (
+            <a href={prevUrl}>
+                ← 
+            </a>
+        )
+    }
+        {
+            nextUrl && (
+                <a href={nextUrl}>
+                    →
+                </a>
+            )
+        }
+</nav>
+
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
