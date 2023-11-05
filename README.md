@@ -9,13 +9,13 @@ This is a personal blog focused on frontend development, written in German. It's
 - The dark theme is the only theme available.
 
 ## Functional Changes ⚙️
-- Added dynamic routing for categories (work in progress).
+- Added dynamic routing for categories.
 - Added dynamic routing for blog posts.
+- Added Pagination
 - Blog posts are structured with Markdown layouts and Frontmatter.
 
 ## Future Plans 📝
 I'm currently working on:
-- Improving categories and tags.
 - Creating a customized 404 page.
 - Adding pagination.
 - Implementing a sitemap.
