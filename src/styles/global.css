@@ -74,7 +74,6 @@ hr {
     margin-top: 20px;
 }
 
-/* Paragraphs */
 p {
     hyphens: auto;
     line-height: 1.5;
@@ -95,16 +94,14 @@ a:hover {
     transition: 0.3s ease;
 }
 
-/* Gifs */
-.gif {
-    margin: 20px 0 0 0;
-    text-align: center;
-}
-
 header {
     margin-top: 20px;
     margin-bottom: 80px;
 }
+/* 
+Styling for projects is in Projects.astro 
+Styling for 404-page is in 404.astro 
+*/
 
 /* Navigation Bar */
 .nav-bar {
@@ -279,6 +276,32 @@ a.category-list:visited {
     grid-template-rows: 110px auto 110px;
     gap: 20px;
 }
+
+.hoverwrap {
+    position: relative;
+}
+
+.text-overlay {
+    width: 300px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #E8FFEE;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: #78DB97;
+}
+
+.hoverwrap:hover .text-overlay {
+    opacity: 1;
+}
+
 
 /* Media Query */
 @media only screen and (max-width: 600px) {

@@ -8,7 +8,7 @@
 <!-- #1 -------------------->
 <div class="project">
     <a href="https://mdohr07.github.io/coffeestop" target="_blank" rel="noopener noreferrer">
-        <img src="/img/cover-coffeestop.png" alt="Galaxy Groove Screenshot">
+        <img src="/img/cover-coffeestop.png" alt="Coffee Stop Vorschaubild">
     </a>
 
     <div class="right">
@@ -32,8 +32,11 @@
 
 <!-- #2 -------------------->
         <div class="project">
+            <div class="hoverwrap">
             <a href="https://mdohr07.github.io/galaxygroove" target="_blank" rel="noopener noreferrer">
-                <img src="/img/cover-galaxygroove.png" alt="Galaxy Groove Screenshot">
+                <img src="/img/cover-galaxygroove.png" alt="Galaxy Groove Vorschaubild">
+                <div class="text-overlay">Live Website [↗]</div>
+            </div>
             </a>
 
             <div class="right">
@@ -58,7 +61,7 @@
 <!-- #3 -------------------->
         <div class="project">
             <a href="https://mdohr07.neocities.org" target="_blank" rel="noopener noreferrer">
-                <img src="/img/mdohr-neocities_full-small.png" alt="Galaxy Groove Screenshot">
+                <img src="/img/mdohr-neocities_full-small.png" alt="Neocities Website Screenshot">
             </a>
 
             <div class="right">
@@ -80,17 +83,47 @@
             </div>
         </div>
 
+<!-- #4 -------------------->
+        <div class="project">
+            <a href="/" target="_blank" rel="noopener noreferrer">
+                <img src="/logo_big.png" alt="mdohr Logo" style="object-fit: contain;">
+            </a>
+
+            <div class="right">
+                <section class="project-about">
+                    <h6>Über diese Website</h6> 
+                    <span class="tech">
+                        <img src="/icons8-astro-64.png" alt="SCSS">
+                        <img src="/icons8-css-48.png" alt="CSS">
+                        <img src="/icons8-javascript-48.png" alt="JavaScript">
+                    </span>
+
+                    <p> Mein erstes Projekt mit dem Astro Framework. 
+                        Basierend auf einem Fork habe ich das Theme nicht nur optisch auf
+                        meine Bedürfnisse angepasst, sondern auch mehrere Funktionen hinzugefügt.
+                    </p>
+                </section>
+
+                <span class="repo">
+                    <a href="https://github.com/mdohr07/blog" target="_blank">
+                    Repository
+                    </a>
+                </span>
+            </div>
+        </div>
+
 
 
 
 <style>
 
-    /* projects container */
+/* projects container */
     .projects {
         background-image: url('/stardust.png');
         padding-top: 80px;
         padding-bottom: 100px;
     }
+
     .projects h2 {
             margin-bottom: 1rem;
             color: #5C5B77;
@@ -104,18 +137,14 @@
         display: flex;
         gap: 15px;
         width: 100%;
-        margin-bottom: 20px;
-    }
-    .project img {
-        width: 300px;
-        max-width: 100%;
-        margin-top: 5px;
-        filter: brightness(0.9);
+        margin-bottom: 50px;
     }
 
-    .project img:hover {
-        filter: brightness(1);
-        transition: 0.5s ease;
+    .project img {
+        width: 300px;
+        height: auto;
+        margin-top: 5px;
+        aspect-ratio: 16 / 9;
     }
     
     .right {
