@@ -1,5 +1,6 @@
 ---
 import Layout from './Layout.astro';
+import Footer from '../components/Footer.astro';
 
 // Helpers
 import { formatDate, slugify } from '../js/helpers';
@@ -12,33 +13,16 @@ const { frontmatter } = Astro.props;
 const { title, description, date, category, author, image } = frontmatter;
 ---
 
-<Layout {pageTitle} {description} >
-    <header>
-        <div class="blog-container">
-        </div>
-        <!-- <img src="" alt=""> -->
-    </header>
-    
+<Layout {pageTitle} {description} />
+
     <!-- Post content -->
-    <div class="post-content"> <p>{ formatDate(date) } - 
+    <p>{ formatDate(date) } - 
         <a href={`./category/${slugify(category)}/`} class="badge">{category}</a>
 
     </p>
         <h1>{title}</h1>
-        <div class="content">
-            <!-- Blog content goes into slot below -->
+        <!-- Blog content goes into slot below -->
             <slot />
             <p>By <a href={`/author/${slugify(author)}`}>{author}</a></p>
 
-        </div>
-        <div class="sidebar"></div>
-    </div>
-</Layout>
-
-<!--
-            <ul>
-            {allCategoriesData.map(category => (
-                <li>{category.name}</li>
-            ))}
-        </ul>
- -->
+<Footer />

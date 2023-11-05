@@ -103,7 +103,9 @@ a:hover {
 
 header {
     margin-top: 20px;
+    margin-bottom: 80px;
 }
+
 /* Navigation Bar */
 .nav-bar {
     display: grid;
