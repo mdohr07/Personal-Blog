@@ -10,14 +10,14 @@ This is a personal blog focused on frontend development, written in German. It's
 
 ## Functional Changes ⚙️
 - Added dynamic routing for categories.
+- Category list with numbers used was added.
 - Added dynamic routing for blog posts.
-- Added Pagination
+- Added Pagination.
+- Custom 404-page.
 - Blog posts are structured with Markdown layouts and Frontmatter.
 
 ## Future Plans 📝
 I'm currently working on:
-- Creating a customized 404 page.
-- Adding pagination.
 - Implementing a sitemap.
 - Adding an RSS feature.
 
