@@ -14,8 +14,10 @@ const { pageTitle, description } = Astro.props;
 <Header {pageTitle} {description}/>
 
 	<body>
-        <main transition:animate={slide({ duration: '0.2s' })} >
+        <main>
+                <div transition:animate={slide({ duration: '0.2s' })} >
 	    <slot />
+        </div>
             <Footer />
         </main>
         </body>
