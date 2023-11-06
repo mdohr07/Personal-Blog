@@ -1,5 +1,5 @@
 ---
-import { ViewTransitions, slide } from 'astro:transitions';
+import { ViewTransitions } from 'astro:transitions';
 
 // utils import
 import Header from '../components/Header.astro';
@@ -15,9 +15,9 @@ const { pageTitle, description } = Astro.props;
 
 	<body>
         <main>
-                <div transition:animate={slide({ duration: '0.2s' })} >
 	    <slot />
-        </div>
             <Footer />
         </main>
+
+        <!-- transition:animate={slide({ duration: '0.2s' })} -->
         </body>
