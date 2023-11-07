@@ -68,7 +68,7 @@
         <div class="project">
             <div class="hoverwrap">
             <a href="https://mdohr07.neocities.org" target="_blank" rel="noopener noreferrer">
-                <img src="/img/mdohr-neocities_full-small.png" alt="Neocities Website Screenshot">     
+                <img src="/img/mdohr-neocities_full-small.png" alt="Neocities Website Screenshot" style="background-color: #000">     
             <div class="text-overlay">Live Website [↗]</div>
         </a>
         </div>
@@ -93,6 +93,33 @@
         </div>
 
 <!-- #4 -------------------->
+        <div class="project">
+            <div class="hoverwrap">
+            <a href="https://mdohr07.github.io/anomalyagency" target="_blank" rel="noopener noreferrer">
+                <img src="/img/anomalyagency.png" alt="Anomaly Agency Screenshot">     
+            <div class="text-overlay">Live Website [↗]</div>
+        </a>
+        </div>
+
+            <div class="right">
+                <section class="project-about">
+                    <h6>Anomaly Agency</h6> 
+                    <span class="tech">
+                        <img src="/icons8-css-48.png" alt="CSS">
+                        <img src="/icons8-html-48.png" alt="HTML">
+                    </span>
+
+                    <p>Agent Scully und Agent Mulder haben das FBI verlassen und machen sich nun mit der Anomaly Agency selbstständig.
+                    </p>
+                </section>
+
+                <span class="repo">
+                    <a href="https://github.com/mdohr07/anomalyagency" target="_blank">Repository</a>  
+                </span>
+            </div>
+        </div>
+
+<!-- #5 -------------------->
         <div class="project">
             <div class="hoverwrap">
             <a href="/" target="_blank" rel="noopener noreferrer">
@@ -160,9 +187,9 @@
 
     .project img {
         width: 300px;
-        height: auto;
+        height: 150px;
         margin-top: 5px;
-        aspect-ratio: 16 / 9;
+        object-fit: cover;
     }
     
     .right {
@@ -207,8 +234,7 @@
 
 .text-overlay {
     width: 300px;
-    height: auto;
-    aspect-ratio: 16 / 9;
+    height: 150px;
     position: absolute;
     top: 5px;
     left: 0;
