@@ -74,6 +74,10 @@ hr {
     margin-top: 20px;
 }
 
+img {
+    max-width: 100%;
+}
+
 p {
     hyphens: auto;
     line-height: 1.5;
@@ -284,6 +288,10 @@ a.category-list:visited {
 @media only screen and (max-width: 600px) {
     body {
         width: 320px;
+    }
+
+    img {
+        max-width: 100%;
     }
 
     .nav-bar {

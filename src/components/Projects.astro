@@ -8,6 +8,36 @@
 <!-- #1 -------------------->
 <div class="project">
     <div class="hoverwrap">
+    <a href="https://mdohr07.github.io/galaxygroove" target="_blank" rel="noopener noreferrer">
+        <img src="/img/galaxygroove.png" alt="Galaxy Groove Vorschaubild">
+    
+          <div class="text-overlay">Live Website [↗]</div>
+    </a>
+    </div>
+  
+
+    <div class="right">
+        <section class="project-about">
+            <h6>Galaxy Groove</h6> 
+            <span class="tech">
+                <img src="/icons8-css-48.png" alt="CSS">
+                <img src="/icons8-sass-avatar-48.png" alt="SCSS">
+                <img src="/icons8-html-48.png" alt="HTML">
+                <img src="/icons8-javascript-48.png" alt="JavaScript">
+            </span>
+
+            <p>Galaxy Groove ist ein Konzept für eine Website, die eine Online-Community mit einem Retro-Weltraumspiel kombiniert.</p>
+        </section>
+
+        <span class="repo">
+            <a href="https://github.com/mdohr07/galaxygroove" target="_blank">Repository</a>  
+        </span>
+    </div>
+</div>
+
+<!-- #2 -------------------->
+<div class="project">
+    <div class="hoverwrap">
     <a href="https://mdohr07.github.io/coffeestop" target="_blank" rel="noopener noreferrer">
         <img src="/img/coffeestop.png" alt="Coffee Stop Vorschaubild">
     
@@ -33,36 +63,6 @@
         </span>
     </div>
 </div>
-
-<!-- #2 -------------------->
-        <div class="project">
-            <div class="hoverwrap">
-            <a href="https://mdohr07.github.io/galaxygroove" target="_blank" rel="noopener noreferrer">
-                <img src="/img/galaxygroove.png" alt="Galaxy Groove Vorschaubild">
-            
-                  <div class="text-overlay">Live Website [↗]</div>
-            </a>
-            </div>
-          
-
-            <div class="right">
-                <section class="project-about">
-                    <h6>Galaxy Groove</h6> 
-                    <span class="tech">
-                        <img src="/icons8-css-48.png" alt="CSS">
-                        <img src="/icons8-sass-avatar-48.png" alt="SCSS">
-                        <img src="/icons8-html-48.png" alt="HTML">
-                        <img src="/icons8-javascript-48.png" alt="JavaScript">
-                    </span>
-
-                    <p>Galaxy Groove ist ein Konzept für eine Website, die eine Online-Community mit einem Retro-Weltraumspiel kombiniert.</p>
-                </section>
-
-                <span class="repo">
-                    <a href="https://github.com/mdohr07/galaxygroove" target="_blank">Repository</a>  
-                </span>
-            </div>
-        </div>
 
 <!-- #3 -------------------->
         <div class="project">
@@ -159,6 +159,7 @@
     }
 
     .project img {
+        max-width: 300px;
         width: 300px;
         height: 150px;
         margin-top: 5px;
@@ -235,6 +236,10 @@
             .project {
                 flex-direction:column;
                 gap: 0;
+            }
+
+            .project img {
+                max-width: 100%;
             }
 
             .projects h6 {
