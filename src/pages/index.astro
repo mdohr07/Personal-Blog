@@ -24,8 +24,30 @@ const formattedPosts = formatBlogPosts(allPosts, {
     Retro-Spielen und dem "Old Web" inspirieren.
     </p>
 
-        <a href="mailto:mdohr07@gmail.com">
-            <button>E-Mail</button>
+    <p>
+        <small class="skilLable"><b>html </b><span>❚❚❚❚❚❚</span></small>
+        <small class="skilLable"><b>css </b><span>❚❚❚❚❚❚</span></small>
+        <small class="skilLable"><b>sass </b><span>❚❚❚</span>❚❚❚</small>
+        <small class="skilLable"><b>JavaScript </b><span>❚</span>❚❚❚❚❚</small>
+    </p>
+
+    <p>  
+        <small class="skilLable"><b>wordpress </b><span>❚❚❚❚❚</span>❚</small>
+        <small class="skilLable"><b>shopify </b><span>❚❚</span>❚❚❚❚</small>
+        <small class="skilLable"><b>astro </b><span>❚</span>❚❚❚❚❚</small>
+    </p>
+
+    <details>
+        <summary>Software</summary>  
+        <p>
+            <small class="skilLable"><b>Photoshop </b><span>❚❚❚❚❚❚</span></small>
+            <small class="skilLable"><b>Adobe Illustrator </b><span>❚❚❚❚</span>❚❚</small>
+            <small class="skilLable"><b>InDesign </b><span>❚❚❚❚❚</span>❚</small>
+        </p>
+    </details>
+
+         <a href="mailto:mdohr07@gmail.com">
+            <button>e-mail</button>
         </a>
 
     <!-- Portfolio -->
@@ -45,3 +67,40 @@ const formattedPosts = formatBlogPosts(allPosts, {
     </section>
 </Layout>
 
+<style>
+
+p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skilLable {
+    background-color: #595874;
+    color: #2d293d;
+    padding: 1px 5px;
+    white-space: nowrap; 
+}
+
+.skilLable span {
+    color: #78DB97;
+    text-transform: none;
+    white-space: nowrap; 
+}
+
+.skilLable b {
+    color: #E8FFEE;
+    text-transform: uppercase;
+}
+
+small.skilLable {
+    white-space: normal;
+}
+
+details {
+    color: #595874;
+    cursor: pointer;
+}
+
+</style>
