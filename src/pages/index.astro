@@ -24,6 +24,8 @@ const formattedPosts = formatBlogPosts(allPosts, {
     Retro-Spielen und dem "Old Web" inspirieren.
     </p>
 
+    <details>
+        <summary>Skills & Tools</summary>  
     <p>
         <small class="skilLable"><b>html </b><span>❚❚❚❚❚❚</span></small>
         <small class="skilLable"><b>css </b><span>❚❚❚❚❚❚</span></small>
@@ -35,10 +37,9 @@ const formattedPosts = formatBlogPosts(allPosts, {
         <small class="skilLable"><b>wordpress </b><span>❚❚❚❚❚</span>❚</small>
         <small class="skilLable"><b>shopify </b><span>❚❚</span>❚❚❚❚</small>
         <small class="skilLable"><b>astro </b><span>❚</span>❚❚❚❚❚</small>
+        <small class="skilLable"><b>MySQL </b><span>❚</span>❚❚❚❚❚</small>
     </p>
 
-    <details>
-        <summary>Software</summary>  
         <p>
             <small class="skilLable"><b>Photoshop </b><span>❚❚❚❚❚❚</span></small>
             <small class="skilLable"><b>Adobe Illustrator </b><span>❚❚❚❚</span>❚❚</small>
@@ -68,7 +69,9 @@ const formattedPosts = formatBlogPosts(allPosts, {
 </Layout>
 
 <style>
-
+details {
+    margin: 10px 0;
+}
 p {
     display: flex;
     flex-direction: row;
