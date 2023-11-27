@@ -2,7 +2,7 @@
 const { frontmatter, url } = Astro.props;
 const {title, date, author, image, description, category} = frontmatter;
 
-import {formatDate, slugify} from '../js/helpers.js'
+import {formatDate, slugify} from '../js/helpers.js';
 ---
 
 
@@ -17,8 +17,7 @@ import {formatDate, slugify} from '../js/helpers.js'
         <a href={url}>{title} </a> <br>    
         <a href={`/blog/posts/category/${slugify(category)}/`} class="badge">{category}</a>
     </h2>
-   
-   
+
     </div>
 
 </article>

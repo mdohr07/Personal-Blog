@@ -83,6 +83,22 @@ p {
     line-height: 1.5;
 }
 
+summary {
+    color:#78DB97;
+    margin: 10px 0;
+}
+
+code {
+    background-color: #5C5B77;
+    padding: 0 2px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+pre code {
+    background: transparent;
+}
+
 /* Links */
 a {
     color:#78DB97;
