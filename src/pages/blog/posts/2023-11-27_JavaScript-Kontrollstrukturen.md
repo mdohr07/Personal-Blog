@@ -11,7 +11,7 @@ category: JavaScript
 
 Ich denke, es ist sehr wichtig, als Webentwickler:in ein Verständnis für JavaScript zu haben. Es ist einfach Teil der Sache. Damals, als ich angefangen habe, Websites zu bauen, war JavaScript noch ganz neu, und es gab noch keinen wirklichen Bedarf für mich, es zu lernen. Ich habe ja nur für mich selbst ein paar statische Seiten erstellt. Später in meinen Jobs (Shop-Administration und Webdesign) war es nicht von mir gefordert, und so bin ich sozusagen "drumherumgekommen". Jetzt ist das anders, denn ich will Webentwicklung zu meinem Hauptberuf machen und nicht so wie früher nur nebenbei. Also, es wird ernst!
 
-Ein paar Fakten am Rande: JavaScript ist eine **Interpreter-Sprache**, die 1995 vom Browser-Hersteller unter dem Namen "Livescript" erfunden wurde, um Webseiten interaktiver zu machen. Zu Beginn wurde JavaScript hauptsächlich dazu verwendet, um Grafiken zu animieren und Formulare zu validieren. Im Laufe der Zeit wuchsen die Fähigkeiten. Zu Beginn wurde JavaScript hauptsächlich dazu verwendet, um Grafiken zu animieren und Formulare zu validieren. Im Laufe der Zeit wuchsen die Fähigkeiten.
+Ein paar Fakten am Rande: JavaScript ist eine **Interpreter-Sprache**, die 1995 vom Browser-Hersteller unter dem Namen "Livescript" erfunden wurde, um Webseiten interaktiver zu machen. Zu Beginn wurde JavaScript hauptsächlich dazu verwendet, um Grafiken zu animieren und Formulare zu validieren. Im Laufe der Zeit wuchsen die Fähigkeiten.
 
 JavaScript ist eine Interpreter-Sprache. Solche Programmiersprachen werden zur Laufzeit übersetzt. Diese Programme laufen etwas langsamer, aber das Ergebnis ist im Gegensatz zu Compiler-Sprachen sofort sichtbar.
 
