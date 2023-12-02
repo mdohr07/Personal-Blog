@@ -24,7 +24,8 @@ const { title, description, date, category, author, image } = frontmatter;
         <!-- Blog content goes into slot below -->
             <slot />
             <p>By <a href={`/author/${slugify(author)}`}>{author}</a></p>
-</Layout>
+
+            <h6>Kommentare</h6>
 
 <script src="https://utteranc.es/client.js"
         repo="mdohr07/blog"
@@ -34,3 +35,5 @@ const { title, description, date, category, author, image } = frontmatter;
         crossorigin="anonymous"
         async>
 </script>
+
+        </Layout>
