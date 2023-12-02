@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/rss": "^3.0.0",
     "astro": "^3.2.3",
+    "commentbox.io": "^2.1.0",
     "date-fns": "^2.30.0"
   }
 }
