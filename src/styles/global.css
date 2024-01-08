@@ -289,6 +289,7 @@ a.category-list:visited {
     color: #2D293D;
     background-color: #E8FFEE;
     padding: 0 5px 0 5px;
+    width: 90px;
 }
 
 .post-list .post-info {
