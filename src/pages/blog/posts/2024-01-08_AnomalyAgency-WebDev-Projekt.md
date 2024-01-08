@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/BlogPostLayout.astro"
 
-title: Die Anomaly Agency - Ein persönliches Web Dev Projekt
+title: Die Anomaly Agency - Ein persönliches Web Dev Projekt 🛸
 date: 2024-01-08
 author: mdohr07
 image: {}
@@ -9,6 +9,7 @@ draft: false
 description: 
 category: Frontend Design
 ---
+![Anomaly Agency](./images/anomalyagency.png)
 
 Hallo Frontend Freunde 👋,
 
