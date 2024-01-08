@@ -9,7 +9,7 @@ draft: false
 description: Erfahre, wie ich die fiktive "Anomaly Agency" Website für Mulder und Scully aus Akte X gestaltet habe 
 category: Frontend Design
 ---
-![Anomaly Agency](/public/img/anomalyagency.png)
+![Anomaly Agency](/img/anomalyagency.png)
 
 Hallo Frontend Freunde 👋,
 
