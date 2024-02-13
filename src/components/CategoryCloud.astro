@@ -21,7 +21,7 @@ const allCategories = formattedPosts.map((cat) =>
     <!-- Loop over data -->
     {
         Object.entries(processedCats).map(([key, val]) /* [category] + value */=> (
-                <a href={`../../blog/posts/category/${slugify(key)}/`} class="category-list" >
-                    { key } { showCount && `(${val})`} </a>
+                <button class="category-button"><a href={`../../blog/posts/category/${slugify(key)}/`} class="category-list" >
+                    { key } { showCount && `(${val})`} </a></button>
         ))
     }
