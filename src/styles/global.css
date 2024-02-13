@@ -194,7 +194,7 @@ Styling for 404-page is in 404.astro
 
 button, a button {
     background-color: #5C5B77;
-    border: 2px solid #78DB97;
+    border: 1px solid #78DB97;
     padding: 5px 20px 6px 20px;
     margin-top: 1.5rem;
     color: #78DB97;
@@ -205,7 +205,7 @@ button, a button {
 }
 
 button:hover {
-    border: 2px solid #E8FFEE;
+    border: 1px solid #E8FFEE;
     background-color: #78DB97;
     color: #E8FFEE;
     transition: 0.5s ease;
@@ -251,23 +251,28 @@ a.badge{
     margin-top: 100px;
 }
 
-.category-button a, .category-button:visited {
+.category-button a, .category-button a:visited {
     text-decoration: none;
     color: #78DB97;
     font-weight: normal;
+}
+
+.category-button a:hover {
+    color: #5C5B77;
 }
 
 .category-button {
     text-decoration: none; 
     background-color: #5C5B77;
     border: 1px solid #78DB97;
-    padding: 5px;
+    padding: 5px 10px;
     margin: 0px 15px 15px 0px; 
 }
 
 .category-button:hover {
-    background-color: #78DB97;
-    color: #E8FFEE;
+    border: 1px solid #5C5B77;
+    background-color: #2D293D;
+    color: #5C5B77;
     transition: 0.5s ease;
 }
 
