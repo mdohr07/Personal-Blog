@@ -36,7 +36,7 @@ h1 small {
 
 h2, h2 a {
     text-decoration: none;
-    font-size: 28px;
+    font-size: 34px;
     margin-top: 2rem;
     margin-bottom: 0;
     font-weight: normal;
@@ -44,26 +44,26 @@ h2, h2 a {
 }
 
 h3, h3 a {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: normal;
     text-decoration: none;
 }
 
 h4, h4 a {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: normal;
     text-decoration: none;
 }
 
 h5, h5 a {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: normal;
     text-decoration: none;
 }
 
 h6, h6 a {
     color: #2D293D;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
     text-decoration: none;
     background-color: #E8FFEE;
@@ -86,6 +86,12 @@ p {
 summary {
     color:#78DB97;
     margin: 10px 0;
+}
+
+blockquote {
+    border-left: 5px solid #E8FFEE;
+    padding: 5px 5px 5px 20px;
+    background-color: #5C5B77;
 }
 
 code {

@@ -6,7 +6,7 @@ date: 2024-01-08
 author: mdohr07
 image: {}
 draft: false
-description: Erfahre, wie ich die fiktive "Anomaly Agency" Website für Mulder und Scully aus Akte X gestaltet habe 
+description: Die Anomaly Agency - Ein persönliches Web Dev Projekt 
 category: Frontend Design
 ---
 ![Anomaly Agency](/img/anomalyagency.png)

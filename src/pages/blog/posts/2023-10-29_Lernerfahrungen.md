@@ -5,7 +5,7 @@ title: Einblicke in meine Lernerfahrungen - Eine Reise von der Kunst zur Fronten
 date: 2023-10-29
 author: mdohr07
 image: {}
-description: Entdecke meine spannende Reise von der Kunst zur Frontend-Entwicklung in meinem neuen Blogpost. Erfahre, wie ich die Theorie-Herausforderung gemeistert habe, welche wertvollen Ressourcen mir geholfen haben und wie ich meine Lernreise fortsetze. Tauche ein in meine Welt der kreativen Transformation und lerne, wie du deine Leidenschaft in technische Fähigkeiten umwandeln kannst. 👩‍💻✨
+description: Von der Kunst zur Frontend-Entwicklung
 category: Persönliche Entwicklung
 ---
 

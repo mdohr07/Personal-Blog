@@ -5,7 +5,7 @@ title: Künstlerische Einflüsse auf die Frontend-Entwicklung 🎨
 date: 2023-11-11
 author: mdohr07
 image: {}
-description: Ein Blogeintrag darüber, wie die künstlerische Perspektive die Herangehensweise an Frontend-Entwicklung beeinflusst. Lies über die Symbiose von Kunst und Code, kreative Denkweisen und lass dich inspirieren. Dieser Beitrag erkundet ästhetische Prinzipien aus der Kunst im Frontend-Design und gibt einen Einblick in Entwicklungstools, zukünftige Entwicklungen sowie persönliche Erfahrungen und Herausforderungen. Ein Blick auf die Verbindung von Kreativität und Funktionalität im Frontend-Design und Ausblicke auf die persönliche Weiterentwicklung runden das Thema ab.
+description: Künstlerische Einflüsse auf die Frontend-Entwicklung
 category: Frontend Design
 ---
 

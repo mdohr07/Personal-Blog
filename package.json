@@ -10,8 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/rss": "^3.0.0",
-    "astro": "^3.2.3",
+    "@astrojs/rss": "^4.0.5",
+    "astro": "^4.3.6",
     "commentbox.io": "^2.1.0",
     "date-fns": "^2.30.0"
   }

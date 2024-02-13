@@ -5,6 +5,7 @@ export function formatDate(date) {
 } 
 
 export function slugify(string) {
+  if (string !== null && string !== undefined) {
     return string
       .toString()
       .trim()
@@ -14,8 +15,11 @@ export function slugify(string) {
       .replace(/\-\-+/g, '-')
       .replace(/^-+/, '')
       .replace(/-+$/, '');
+  } else {
+    // Handhabung des Falls, wenn 'string' null oder undefined ist
+    return ''; // oder eine andere geeignete Standard-Rückgabewert
   }
-  
+}
 
   export function generateCategoryData(categories) { /* Creates category list */
     let categoryData = []; /* Creates array of categories list */

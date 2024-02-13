@@ -5,7 +5,7 @@ title: Was ich über Kontrollstrukturen in JavaScript gelernt habe 🧠
 date: 2023-11-27
 author: mdohr07
 image: {}
-description: Begleite mich auf meiner Lernreise durch die Grundlagen von JavaScript, von den Anfängen bis zu fortgeschrittenen Kontrollstrukturen wie Schleifen. Erfahre, wie ich Herausforderungen meistere, eigene Projekte umsetze und was derzeit meine unverzichtbaren Lernressourcen sind. Erfahre von if-Statements, while- und for-Loops und finde heraus, was meine JavaScript Traumprojekte für die Zukunft sind. Diese persönliche Reflektion bietet Einblicke in den Lernprozess und wertvolle Ressourcen für angehende Webentwickler:innen. 
+description: Was ich über Kontrollstrukturen in JavaScript gelernt habe
 category: JavaScript
 ---
 
