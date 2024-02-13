@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/BlogPostLayout.astro"
 
-title: Neocities, Indie Web und die Freiheit des Selbstausdrucks 😽🤟
+title: Neocities, Indie Web und die Freiheit des Selbstausdrucks 🤟😽
 date: 2024-02-13
 author: mdohr07
 image: {}
