@@ -3,7 +3,7 @@ layout: "../../../layouts/BlogPostLayout.astro"
 
 title: Was ich über Kontrollstrukturen in JavaScript gelernt habe 🧠
 date: 2023-11-27
-author: mdohr07
+author: mirpx
 image: {}
 description: Was ich über Kontrollstrukturen in JavaScript gelernt habe
 category: JavaScript

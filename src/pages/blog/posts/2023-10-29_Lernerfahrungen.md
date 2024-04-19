@@ -3,7 +3,7 @@ layout: "../../../layouts/BlogPostLayout.astro"
 
 title: Einblicke in meine Lernerfahrungen - Eine Reise von der Kunst zur Frontend-Entwicklung 🤓💡
 date: 2023-10-29
-author: mdohr07
+author: mirpx
 image: {}
 description: Von der Kunst zur Frontend-Entwicklung
 category: Persönliche Entwicklung

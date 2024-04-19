@@ -3,7 +3,7 @@ layout: "../../../layouts/BlogPostLayout.astro"
 
 title: Künstlerische Einflüsse auf die Frontend-Entwicklung 🎨
 date: 2023-11-11
-author: mdohr07
+author: mirpx
 image: {}
 description: Künstlerische Einflüsse auf die Frontend-Entwicklung
 category: Frontend Design

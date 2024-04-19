@@ -3,7 +3,7 @@ layout: "../../../layouts/BlogPostLayout.astro"
 
 title: Die Anomaly Agency - Ein persönliches Web Dev Projekt 🛸
 date: 2024-01-08
-author: mdohr07
+author: mirpx
 image: {}
 draft: false
 description: Die Anomaly Agency - Ein persönliches Web Dev Projekt 
@@ -15,7 +15,7 @@ Hallo Frontend Freunde 👋,
 
 vor kurzem habe ich ein neues Projekt für mein Portfolio abgeschlossen, das ich gerne mit euch teilen möchte. Es handelt sich um eine Website für die fiktive "Anomaly Agency", gegründet von den (besonders bei mir) beliebten Charakteren Mulder und Scully aus Akte X. Ich fand, dass mein Portfolio eine Business-Website gebrauchen könnte, aber ich wollte gleichzeitig sicherstellen, dass das Projekt mir persönlich Spaß macht. Die "Anomaly Agency" haben die beiden Agenten nach ihrem Austritt aus dem FBI gegründet (das habe ich mir jedenfalls so ausgedacht). Ein paar Angestellte sollte es auch geben. So musste meiner Meinung nach Walter Skinner unbedingt dabei sein und außerdem brauchten sie eine:n Hacker:in. Da dachte ich natürlich als erstes an "Die Einsamen Schützen", aber hatte vergessen - achtung Spoiler? - das diese in der Serie gestorben waren. Also musste Vertretung her: Lisbeth Salander aus der Millenium Trilogie von Stieg Larson natürlich. Und in Form der einzig wahren Besetzung Noomi Rapace.
 
-Direkter Link zu Anomaly: https://mdohr07.github.io/anomalyagency/
+Direkter Link zu Anomaly: https://mirpx.github.io/anomalyagency/
 
 ## Warum Anomaly Agency?
 
