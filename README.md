@@ -2,8 +2,6 @@
 
 This is a personal blog focused on frontend development, written in German. It's a fork of an existing repository that already had a layout that suited my preferences. I made cosmetic and functional changes to adapt it to my needs.
 
-<img src="https://mirpx.netlify.app/img/repository-img.png">
-
 ## Cosmetic Changes 💄
 - Customized cards.
 - Removed images - no GIFs in the header, no preview images for blog posts as I don't plan to use many images in my blog posts.
