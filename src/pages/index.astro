@@ -8,7 +8,7 @@ import { formatBlogPosts } from '../js/sortPosts';
 
 const allPosts = await Astro.glob("./blog/posts/*md");
 const formattedPosts = formatBlogPosts(allPosts, {
-    limit: 3,
+    limit: 5,
 });
 ---
 
@@ -58,7 +58,7 @@ const formattedPosts = formatBlogPosts(allPosts, {
             <button>e-mail</button>
         </a>
 
-        <p style="border: 1px dashed; padding: 10px; background-color: red;">Hier gibt es normalerweise ein kleines Portfolio, aber der Bereich ist gerade in Überarbeitung :-)</p>
+        <p style="border: 1px dashed; padding: 10px; background-color: red; text-transform: uppercase; font-size: small; font-weight: bolder;">Hier gibt es normalerweise ein kleines Portfolio, aber der Bereich ist gerade in Überarbeitung :-)</p>
     <!-- Portfolio -->
     <!-- <Projects />    
         <hr>  -->

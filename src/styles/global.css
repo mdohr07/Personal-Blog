@@ -140,12 +140,14 @@ Styling for 404-page is in 404.astro
     align-items: top;
 }
 
-.title-link h1 {
+.title-link h1 a {
     display: inline-flex;
     font-family: "Bungee", sans-serif;
     font-size: 18px;
     font-weight: 400;
     padding: 0px 10px;
+    color: #E8FFEE;
+    text-decoration: none;
 }
 
 .nav-bar img {
