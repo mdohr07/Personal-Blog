@@ -3,7 +3,7 @@ layout: "../../../layouts/BlogPostLayout.astro"
 
 title: Mein Weg von der Kunst zur Frontend Entwicklung 👩‍💻
 date: 2023-10-18
-author: mirpx
+author: mdohr07
 image: {}
 description: Wer ich bin, warum es diesen Blog gibt und was es darin zu erwarten gibt
 category: Allgemein

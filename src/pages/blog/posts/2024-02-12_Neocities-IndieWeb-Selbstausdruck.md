@@ -3,7 +3,7 @@ layout: "../../../layouts/BlogPostLayout.astro"
 
 title: Neocities, Indie Web und die Freiheit des Selbstausdrucks 🤟😽
 date: 2024-02-13
-author: mirpx
+author: mdohr07
 image: {}
 draft: false
 description: Neocities, Indie Web und die Freiheit des Selbstausdrucks
