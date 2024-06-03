@@ -211,6 +211,7 @@ button, a button {
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none;
 }
 
 button:hover {
@@ -325,6 +326,16 @@ a.category-button:visited {
     justify-content: baseline;
     grid-template-rows: 110px auto 110px;
     gap: 20px;
+}
+
+.guestbook {
+    background-color: #E8FFEE;
+    color: #2D293D;
+    padding: 1rem;
+}
+
+.guestbook h4 {
+    margin: 0 0 1rem;
 }
 
 
