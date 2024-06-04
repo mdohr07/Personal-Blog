@@ -1,0 +1,84 @@
+---
+import Layout from '../layouts/Layout.astro';
+const pageTitle = "mdohr07";
+
+import PostCard from '../components/PostCard.astro';
+import Projects from '../components/Projects.astro';
+import { formatBlogPosts } from '../js/sortPosts';
+
+const allPosts = await Astro.glob("./blog/posts/*md");
+const formattedPosts = formatBlogPosts(allPosts, {
+    limit: 5,
+});
+---
+
+<Layout pageTitle={pageTitle} description="Frontend Development">
+    
+        <h3>Skills & Tools</h3>  
+    <p>
+        <b>Sprachen</b>
+        <small class="skilLable"><b>html </b><span>❚❚❚❚❚❚</span></small>
+        <small class="skilLable"><b>css </b><span>❚❚❚❚❚❚</span></small>
+        <small class="skilLable"><b>sass </b><span>❚❚</span>❚❚❚❚</small>
+        <small class="skilLable"><b>JavaScript </b><span>❚</span>❚❚❚❚❚</small>
+    </p>
+
+    <p>  
+        <b>Tools</b>
+        <small class="skilLable"><b>wordpress </b><span>❚❚❚❚</span>❚❚</small>
+        <small class="skilLable"><b>shopify </b><span>❚</span>❚❚❚❚❚</small>
+        <small class="skilLable"><b>astro </b><span>❚</span>❚❚❚❚❚</small>
+        <small class="skilLable"><b>MySQL </b><span>❚</span>❚❚❚❚❚</small>
+    </p>
+
+        <p>
+            <b>Design</b>
+            <small class="skilLable"><b>Photoshop </b><span>❚❚❚❚❚❚</span></small>
+            <small class="skilLable"><b>Adobe Illustrator </b><span>❚❚❚❚</span>❚❚</small>
+            <small class="skilLable"><b>InDesign </b><span>❚❚❚❚❚</span>❚</small>
+            <small class="skilLable"><b>Figma </b><span>❚</span>❚❚❚❚❚</small>
+            <small class="skilLable"><b>Blender </b><span>❚❚❚</span>❚❚❚</small>
+        </p>
+
+        <p>
+            Hier gibt es <a href="https://drive.google.com/file/d/1e37Dlb7NUQLnaDgI2Dh_djArzKD0xMbr/view?usp=sharing" target ="_blank">mein Resumé</a> zum herunterladen. <br>
+        </p>
+
+</Layout>
+
+<style>
+    details {
+        margin: 10px 0;
+    }
+    p {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .skilLable {
+        background-color: #595874;
+        color: #2d293d;
+        padding: 1px 5px;
+        white-space: nowrap; 
+    }
+    
+    .skilLable span {
+        color: #78DB97;
+        text-transform: none;
+        white-space: nowrap; 
+    }
+    
+    .skilLable b {
+        color: #E8FFEE;
+        text-transform: uppercase;
+    }
+    
+    small.skilLable {
+        white-space: normal;
+    }
+    
+    
+    </style>
+

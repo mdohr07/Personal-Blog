@@ -4,17 +4,18 @@ const { prevUrl, nextUrl } = Astro.props;
 
 
 <nav aria-label="Blog Pagination">
+    <hr />
     {
         prevUrl && (
             <a href={prevUrl}>
-                ← 
+                ← neuere Einträge
             </a>
         )
     }
         {
             nextUrl && (
                 <a href={nextUrl}>
-                    →
+                   ältere Einträge →
                 </a>
             )
         }

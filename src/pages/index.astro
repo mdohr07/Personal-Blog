@@ -14,54 +14,30 @@ const formattedPosts = formatBlogPosts(allPosts, {
 
 <Layout pageTitle={pageTitle} description="Frontend Development">
     
-   <p>Hallo 👋</p>
-   <p>ich bin eine Webentwicklerin mit Hintergrund in
-    Kunst und Grafikdesign. Mein Schwerpunkt liegt auf 
-    ästhetisch ansprechenden Front-End-Designs und ich liebe es,
-    immer etwas Neues lernen zu können.
-    Websites baue ich schon seit 1999 und lasse mich dabei gerne von 
+   <h3>Hallo 👋</h3>
+    <p>Ich bin Miriam und ich finde es schwierig, mich selbst zu betiteln.<br/>
+    Ich habe Grafik studiert und als Webdesignerin, Comic Zeichnerin und Concept Artist gearbeitet. Im Moment befinde ich mich in einer Umorientierungsphase und hoffe, bald eine Umschulung zur Fachinformatikerin beginnen zu können. 🧑‍💻<br/>
+    Meine Leidenschaften sind zeichnen, malen und mit meinem Rennrad fahren. Ich liebe es, Skizzenbücher und Journals zu füllen. Aber ich baue auch gern Websites. Damit habe ich 1999 angefangen und lasse mich heute noch dabei gern dabei von 
     Retro-Spielen und dem "Old Web" inspirieren. 
     </p>
 
-    <details>
-        <summary>Skills & Tools</summary>  
+    <h4>Über diese Website</h4>
+    <p>Hier möchte ich vor allem meine Fortschritte und auch Gedanken dokumetieren, aber auch meine Projekte zu Schau stellen. 
+    
     <p>
-        <b>Sprachen</b>
-        <small class="skilLable"><b>html </b><span>❚❚❚❚❚❚</span></small>
-        <small class="skilLable"><b>css </b><span>❚❚❚❚❚❚</span></small>
-        <small class="skilLable"><b>sass </b><span>❚❚❚</span>❚❚❚</small>
-        <small class="skilLable"><b>JavaScript </b><span>❚</span>❚❚❚❚❚</small>
-    </p>
+    Wenn du mit mir schnacken willst, <a href="mailto:mblip@duck.com">schreib' mir ruhig eine E-Mail</a>!</p>
 
-    <p>  
-        <b>Tools</b>
-        <small class="skilLable"><b>wordpress </b><span>❚❚❚❚❚</span>❚</small>
-        <small class="skilLable"><b>shopify </b><span>❚❚</span>❚❚❚❚</small>
-        <small class="skilLable"><b>astro </b><span>❚</span>❚❚❚❚❚</small>
-        <small class="skilLable"><b>MySQL </b><span>❚</span>❚❚❚❚❚</small>
-    </p>
+    <p>Sonst findest du mich auch hier:</p>
+    ⚙️ <a href="https://github.com/mdohr07" target="_blank">GitHub</a><br/>
+    🎨 <a href="https://www.artstation.com/mdohr07" target="_blank">Artstation</a><br/>
+    📦 <a href="https://sketchfab.com/mdohr07" target="_blank">Sketchfab</a>
 
-        <p>
-            <b>Design</b>
-            <small class="skilLable"><b>Photoshop </b><span>❚❚❚❚❚❚</span></small>
-            <small class="skilLable"><b>Adobe Illustrator </b><span>❚❚❚❚</span>❚❚</small>
-            <small class="skilLable"><b>InDesign </b><span>❚❚❚❚❚</span>❚</small>
-            <small class="skilLable"><b>Figma </b><span>❚</span>❚❚❚❚❚</small>
-            <small class="skilLable"><b>Blender </b><span>❚❚❚</span>❚❚❚</small>
-        </p>
-    </details>
+    <h4>AI Nutzung</h4>
+    <p>Ich schreibe meine Texte selbst, weil ich "ich" sein will, benutze aber gern AI für Brainstorming. </p>
 
-    <p>
-        Hier gibt es <a href="https://drive.google.com/file/d/1e37Dlb7NUQLnaDgI2Dh_djArzKD0xMbr/view?usp=sharing" target ="_blank">mein Resumé</a> zum herunterladen. <br>
-    </p>
-         <a href="mailto:mblip@duck.com">
-            <button>e-mail</button>
-        </a>
-
-        <p style="border: 1px dashed; padding: 10px; background-color: red; text-transform: uppercase; font-size: small; font-weight: bolder;">Hier gibt es normalerweise ein kleines Portfolio, aber der Bereich ist gerade in Überarbeitung :-)</p>
     <!-- Portfolio -->
-    <!-- <Projects />    
-        <hr>  -->
+    <!-- <Projects -->    
+        <hr> 
 
     <!-- Blogposts -->
     <section class="post-list" aria-label="List of blog posts">
@@ -77,42 +53,3 @@ const formattedPosts = formatBlogPosts(allPosts, {
     </section>
 </Layout>
 
-<style>
-details {
-    margin: 10px 0;
-}
-p {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.skilLable {
-    background-color: #595874;
-    color: #2d293d;
-    padding: 1px 5px;
-    white-space: nowrap; 
-}
-
-.skilLable span {
-    color: #78DB97;
-    text-transform: none;
-    white-space: nowrap; 
-}
-
-.skilLable b {
-    color: #E8FFEE;
-    text-transform: uppercase;
-}
-
-small.skilLable {
-    white-space: normal;
-}
-
-details {
-    color: #595874;
-    cursor: pointer;
-}
-
-</style>
