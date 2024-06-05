@@ -1,0 +1,145 @@
+---
+import Layout from '../layouts/Layout.astro';
+const pageTitle = "3D Modelle";
+---
+<Layout pageTitle={pageTitle} description="3D Modelle">
+
+    <h2>3D Modelle</h2>
+    <p>
+        Hier ist eine Auswahl meiner 3D Modelle. Ich habe mir das 3D Modellieren mit ein wenig Hilfe eines damaligen Freundes aus dem Internet selbst beigebracht. Damals habe ich ZBrush benutzt. <br>
+        Zu Blender habe ich erst später gewechselt und wieder selbst beigebracht. Mittlerweile mag ich Blender lieber als ZBrush und fast alle Modelle die hier zu sehen sind, sind in Blender entstanden 😊
+    </p>
+    
+    <h3>Mbopp</h3>
+    <div class="imagecontainer">
+       
+    <a href="https://imgur.com/jx06uKJ" target="_blank"><img src="https://i.imgur.com/jx06uKJ.png?1" title="source: imgur.com" /></a>
+
+    <a href="https://imgur.com/KG6XlOY" target="_blank"><img src="https://i.imgur.com/KG6XlOY.png?1" title="source: imgur.com" /></a>
+  
+    </div>     
+    
+    <section class="textbox">
+        Das ist Mbopp bei einer Lieferung von Paketen. Er wartet auf etwas und ihm ist langweilig. Das Modell konnte ich leider nicht so, wie es auf diesem Bild ist, zu Sketchfab hochladen, dort gibt es nur eine abgespeckte Version.
+
+        <p>
+            <a href="https://skfb.ly/oUyFZ" target="_blank" rel="noopener noreferrer">Auf Sketchfab ansehen</a>
+        </p>
+    </section>    
+    
+    <h3>Smolship</h3>
+    <div class="imagecontainer">
+       
+        <a href="https://imgur.com/1gqsfYd" target="_blank"><img src="https://i.imgur.com/1gqsfYd.png?2" title="source: imgur.com" /></a>
+
+        <a href="https://imgur.com/yZgsBH6" target="_blank"><img src="https://i.imgur.com/yZgsBH6.png?1" title="source: imgur.com" /></a>
+
+    </div>    
+    
+    <section class="textbox">
+        Ein kleines, schnelles Raumschiff. Pew Pew! 
+        <p>
+            <a href="https://skfb.ly/opCKR" target="_blank" rel="noopener noreferrer">Auf Sketchfab ansehen</a>
+        </p>
+    </section> 
+
+    <h3>Smolbot</h3>
+    <div class="imagecontainer">
+       
+        <a href="https://imgur.com/r18ktDU" target="_blank"><img src="https://i.imgur.com/r18ktDU.png?1" title="source: imgur.com" /></a>
+
+        <a href="https://imgur.com/MaCqQAn" target="_blank"><img src="https://i.imgur.com/MaCqQAn.png?1" title="source: imgur.com" /></a>
+
+    </div>    
+    
+    <section class="textbox">
+        Dieses ist ein kleiner Roboter, den ich in ZBrush modelliert habe und ein älteres Werk, dennoch eines meiner besten.
+        <p>
+            <a href="https://skfb.ly/6ZPnS" target="_blank" rel="noopener noreferrer">Auf Sketchfab ansehen</a>
+        </p>
+    </section>    
+  
+    
+
+</Layout>
+
+
+<style>
+
+/* projects container */
+    .imagecontainer {
+        display: grid;
+        flex-direction: row;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        margin: 0.5rem 0rem;
+        gap: 2%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+    }
+
+    .textbox {
+        background-color: #5C5B77;
+        border: none;
+        padding: 20px 20px 12px 20px;
+    }
+
+    .textbox a {
+        text-decoration: none;
+    }
+
+    .textbox a::after {
+            content: '[↗]';
+            margin-left: 5px;
+        }
+
+    .textbox a:visited {
+        color: #78db97;
+    }
+
+
+        
+        @media only screen and (max-width: 600px) {
+            .link-images img {
+                height: 30px;
+                width: 30px;
+                margin: 16px 1px;
+            }
+
+            .project {
+                flex-direction:column;
+                gap: 0;
+            }
+
+            .project img {
+                max-width: 100%;
+            }
+
+            .projects h6 {
+                margin-top: -10px;
+            }
+
+            .project img {
+                width: 100%;
+            }
+
+            .tech img {
+            width: 26px;
+            height: 26px;
+            }
+            
+            .hoverwrap img {
+                width: 100%;
+            }
+
+            .text-overlay {
+                width: 100%;
+            }
+        }
+    </style>
+    
