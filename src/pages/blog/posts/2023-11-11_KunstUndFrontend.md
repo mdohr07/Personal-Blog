@@ -70,10 +70,6 @@ Es gibt ja tatsächlich einen Trend zum Old Web, zumindest visuell. Vielleicht s
 
 Als ich damals mit dem Coden angefangen habe, gab es noch nicht so viele Optionen, und ich habe hauptsächlich im Standard Text-Editor gearbeitet und auch in dem Editor, der beispielsweise bei Geocities schon integriert war. Später versuchte ich mich in Dreamweaver, was auch funktionierte. So richtig gefallen hat mir der Editor allerdings nicht. Dann habe ich Brackets entdeckt, und das war der Editor meiner Wahl. Es folgte eine lange Pause, in der ich keinen Code-Editor brauchte. Und jetzt, da ich nach langer Zeit zum Web Design oder auch Web Development zurückgekehrt bin, gibt es VS Code. Im Zusammenhang mit meiner Weiterbildung habe ich zuerst IntelliJ IDEA installiert und benutzt. Ich hatte es mit Java zu tun und da erschien mir IntelliJ als die beste Option. Als das Thema Java beendet war und ich mich wieder Websites mit HTML und CSS zuwandte, habe ich dann aber VS Code installiert. Im Moment habe ich beide, aber VS Code ist mein klarer Favorit.
 
-![VS Code Logo](./images/icons8-visual-studio-100.png) ![IntelliJ Logo](./images/icons8-intellij-idea-100.png)
-
-<sub>Icons von [Icons8](https://icons8.com)</sub>
-
 ### Feedback, Community und persönliche Weiterentwicklung
 
 Mein Hauptaugenmerk liegt derzeit auf JavaScript, das ist essenziell und ich habe einiges nachzuholen. Wenn ich mich dann bereit fühle, werde ich mich auf jeden Fall mit einem der bekannten und beliebten Frontend Frameworks beschäftigen. Aber ich möchte auch mehr über Git lernen und zusehen, das Beste aus GitHub herauszuholen. Neben dem zuvor erwähnten zwei-Farben-Design möchte ich gerne aktuelle Trends des neuen Old-Web-Ansatzes erkunden, aber ich habe auch Lust, etwas ganz "frisches" zu probieren. Ich denke da in Richtung Space und SciFi.
