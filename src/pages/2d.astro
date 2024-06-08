@@ -1,0 +1,127 @@
+---
+import Layout from '../layouts/Layout.astro';
+const pageTitle = "2D-Kunst";
+---
+<Layout pageTitle={pageTitle} description="Zeichnung und Malerei">
+
+    <h2>Zeichnungen und Digital Painting</h2>
+    <p>
+       Dies ist eine kleine Auswahl meiner 2D-Kunst und es handelt sich um größtenteils neuere Werke. Mehr davon gibt es auf <a href="https://www.artstation.com/mdohr07" target="_blank">Artstation</a>.
+    </p>
+    
+
+    <h3>Art Journal</h3>
+    <p>Skizzen, Kritzelei, Collage und alles, was mir gerade in den Sinn kommt. Auch gut für unterwegs!</p>
+       <a href="/art/artdiary_002_small-min.png" target="_blank" rel="noopener noreferrer"><img src="/art/artdiary_002_small-min.png" alt="Art Diary Doppelseite #2"></a><br>
+       <a href="/art/artdiary_003_small-min.png" target="_blank" rel="noopener noreferrer"><img src="/art/artdiary_003_small-min.png" alt="Art Diary Doppelseite #3"></a><br>
+       <a href="/art/artdiary_006_small-min.png" target="_blank" rel="noopener noreferrer"><img src="/art/artdiary_006_small-min.png" alt="Art Diary Doppelseite #5"></a>
+ 
+<!-- __________________________________________________________________ -->
+     
+
+    <h3>Digital Painting</h3>
+    <p>Diese Bilder habe ich mit Clip Studio Paint gemalt, hat die besten Pinsel(eigenschaften)!</p>
+        <a href="/art/postapocalypticscene-min.png" target="_blank" rel="noopener noreferrer"><img src="/art/postapocalypticscene-min.png" alt="Postapokalyptische Szene"></a><br>
+        <a href="/art/nextcompetitor-min.png" target="_blank" rel="noopener noreferrer"><img src="/art/nextcompetitor-min.png" alt="Next Competitor"></a>
+  
+
+<!-- __________________________________________________________________ -->
+    
+
+<h3>Portraits</h3>
+<p>Diese sind ebenfalls digital entstanden.</p>
+<div class="imagecontainer">
+   
+    <a href="/art/marlenR-min.png" target="_blank" rel="noopener noreferrer"><img src="/art/marlenR-min.png" alt="Marlen Reusser Portrait"></a>
+
+    <a href="/art/lena-study8-min.jpg" target="_blank" rel="noopener noreferrer"><img src="/art/lena-study8-min.jpg" alt="Lena Headey Portrait"></a>
+
+</div>    
+ 
+
+</Layout>
+
+
+<style>
+
+/* projects container */
+.imagecontainer {
+        display: grid;
+        flex-direction: row;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        margin: 0.5rem 0rem;
+        gap: 2%;
+    }
+
+    .imagecontainer img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        aspect-ratio: 2/3;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin: 2% 0%;
+    }
+
+    .textbox {
+        background-color: #5C5B77;
+        border: none;
+        padding: 20px 20px 12px 20px;
+    }
+
+    .textbox a {
+        text-decoration: none;
+    }
+
+    .textbox a::after {
+            content: '[↗]';
+            margin-left: 5px;
+        }
+
+    .textbox a:visited {
+        color: #78db97;
+    }
+        
+        @media only screen and (max-width: 600px) {
+            .link-images img {
+                height: 30px;
+                width: 30px;
+                margin: 16px 1px;
+            }
+
+            .project {
+                flex-direction:column;
+                gap: 0;
+            }
+
+            .project img {
+                max-width: 100%;
+            }
+
+            .projects h6 {
+                margin-top: -10px;
+            }
+
+            .project img {
+                width: 100%;
+            }
+
+            .tech img {
+            width: 26px;
+            height: 26px;
+            }
+            
+            .hoverwrap img {
+                width: 100%;
+            }
+
+            .text-overlay {
+                width: 100%;
+            }
+        }
+    </style>
+    
