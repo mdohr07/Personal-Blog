@@ -13,7 +13,43 @@ const formattedPosts = formatBlogPosts(allPosts, {
 ---
 
 <Layout pageTitle={pageTitle} description="Frontend Development">
+
+    <div class="imagecontainer">
+
+        <p>Für alle, die noch etwas mehr über mich erfahren wollen, habe ich einen kleinen Steckbrief zusammengestellt. Ich finde es sehr schwierig, mich für das eine Lieblings-Ding zu entscheiden.
+        Weiter unten ist noch ein Abschnitt mit meinen Fähigkeiten.<br/><br/>
+        
+        Man kann aber sagen, dass ich Science Fiction mag. Außerdem würde ich mich als sehr kreativen Menschen bezeichnen und mein Persönlichkeitstyp ist INFJ(A).
+            </p>
+
+        <a href="/foto.jpg" target="_blank" rel="noopener noreferrer"><img src="/foto.jpg" alt=""></a>
+
+        </div>
+
+
+    <ul>
+        <li>Lieblingsfarbe: Alle!</li>
+        <li>Lieblingsessen: Vieles, z.B. Udon, Soba mit Tempura, aber auch Curries oder Pizza</li>
+        <li>Lieblingsfilm: Die "Alien" Reihe</li>
+        <li>Lieblingsmusik: Hauptsächlich Metal oder Elektro / New Retro Wave, bisschen Country</li>
+        <li>Lieblingsreiseziele: Japan! Sonst Schottland und die Niederlande</li>
+        <li>Lieblingsspiel: Mass Effect, Elite Dangerous, FF7 (original)</li>
+        <li>Lieblingskünstler/in: Karl Kopinski, Sparth</li>
+        <li>Lieblingsmaterial zum Zeichnen/Malen: Fudepen, Marker</li>
+        <li>Lieblingsprogrammiersprache oder Webdesign-Tool: CSS</li>
+        <li>Traumprojekt: Ein Spiel in Pixelgrafik</li>
+        <li>Haustiere: Imaginäre Katze und Schusterspinnen</li>
+        <li>Lieblingsjahreszeit: Frühling</li>
+        <li>Art meines Fahrrads: Endurance</li>
+        <li>Lieblings-Radfahrer/in: Marlen Reusser</li>
+        <li>Lieblings-Ausfahrt-Snack: Oat Snack oder Laugenstange</li>
+    </ul>
+
+    <hr>
+
+
     
+    <!--
         <h3>Skills & Tools</h3>  
     <p>
         <b>Sprachen</b>
@@ -43,6 +79,7 @@ const formattedPosts = formatBlogPosts(allPosts, {
         <p>
             Hier gibt es <a href="https://drive.google.com/file/d/1e37Dlb7NUQLnaDgI2Dh_djArzKD0xMbr/view?usp=sharing" target ="_blank">mein Resumé</a> zum herunterladen. <br>
         </p>
+         -->
 
 </Layout>
 
@@ -57,6 +94,10 @@ const formattedPosts = formatBlogPosts(allPosts, {
         gap: 10px;
     }
     
+    ul li {
+        margin-left: -1.5rem;
+    }
+
     .skilLable {
         background-color: #595874;
         color: #2d293d;
@@ -78,7 +119,50 @@ const formattedPosts = formatBlogPosts(allPosts, {
     small.skilLable {
         white-space: normal;
     }
+
+    .imagecontainer {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+        width: 100%;
+        min-height: 300px;
+        align-items:center;
+        margin-bottom: 2rem;
+    }
+
+    .imagecontainer p {
+        background-color:#595874;
+        padding: 6%;
+        margin-top: 4rem;
+    }
     
+    .imagecontainer img {
+        max-width: 300px;
+        margin-bottom: 3rem;
+    }
     
+    @media only screen and (max-width: 600px) {
+        .imagecontainer {
+            grid-template-columns: 1fr;
+        }
+
+        .imagecontainer img {
+            max-width: 100%;
+        }
+
+    }
+
+    @media only screen and (max-width: 800px) {
+        .imagecontainer {
+            grid-template-columns: 1fr;
+        }
+
+        .imagecontainer img {
+            max-width: 100%;
+        }
+    }
+
+
+
     </style>
 
