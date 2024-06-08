@@ -5,21 +5,16 @@ export function formatDate(date) {
 } 
 
 export function slugify(string) {
-  if (string !== null && string !== undefined) {
-    return string
-      .toString()
-      .trim()
-      .toLowerCase()
-      .replace(/\s+/g, '-')
-      .replace(/[^\w\-]+/g, '')
-      .replace(/\-\-+/g, '-')
-      .replace(/^-+/, '')
-      .replace(/-+$/, '');
-  } else {
-    // Handhabung des Falls, wenn 'string' null oder undefined ist
-    return ''; // oder eine andere geeignete Standard-Rückgabewert
-  }
+  return string
+    .toString()
+    .toLowerCase()
+    .replace(/\s+/g, '-') // Replace spaces with -
+    .replace(/[^\w\-]+/g, '') // Remove all non-word chars
+    .replace(/\-\-+/g, '-') // Replace multiple - with single -
+    .replace(/^-+/, '') // Trim - from start of text
+    .replace(/-+$/, ''); // Trim - from end of text
 }
+
 
   export function generateCategoryData(categories) { /* Creates category list */
     let categoryData = []; /* Creates array of categories list */
