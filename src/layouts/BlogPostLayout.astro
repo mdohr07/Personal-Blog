@@ -10,7 +10,7 @@ import '../styles/global.css';
 // Site titles, description, etc.
 const pageTitle = "mdohr07";
 const { frontmatter } = Astro.props;
-const { title, description, date, category, author, musik, image } = frontmatter;
+const { title, description, date, category, author, musik, stimmung} = frontmatter;
 ---
 
 <Layout {pageTitle} {description} >
@@ -28,8 +28,16 @@ const { title, description, date, category, author, musik, image } = frontmatter
     </p>
 
     {musik && (
-        <p>🎵 {musik}</p>
+        <p>🎵 {musik}
+        
+
+        
+{stimmung && (
+    <span style="color: #5C5B77">|</span> <span>Stimmung: {stimmung}</span>
+)}
+        </p>
     )}
+
     
 </section>
 
