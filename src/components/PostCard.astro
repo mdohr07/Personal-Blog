@@ -14,10 +14,15 @@ import {formatDate, slugify} from '../js/helpers.js';
         </date>
          
     <h2 class="entrytitle">
-        <a href={url}>{title} </a> <br>    
-        <a href={`/blog/posts/category/${slugify(category)}/`} class="badge">{category}</a>
+        <a href={url}>{title} </a> <br>         
     </h2>
 
-    </div>
+    </div>    
+    
+    <section class="postcategory">
+  
+        Kategorie:
+        <a href={`/blog/posts/category/${slugify(category)}/`} class="badge">{category}</a> 
+    </section>
 
 </article>

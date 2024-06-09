@@ -2,7 +2,7 @@
 layout: "../../../layouts/BlogPostLayout.astro"
 
 title: Neocities, Indie Web und die Freiheit des Selbstausdrucks 🤟😽
-date: 2024-02-13
+date: 2024-02-12
 author: mdohr07
 image: {}
 draft: false
@@ -51,22 +51,27 @@ Hier eine kleine Zusammenstellung an Neocities Sites, denen ich folge - mein per
 
 #### HUBBARDIAN
 ![Hubbardian](https://neocities.org/site_screenshots/18/87/hubbardian/scribble/duality.html.540x405.webp)
+
 [Website besuchen [↗]](https://hubbardian.neocities.org)
 
 #### Solaria's Webspace
 ![Solaria's Webspace](https://neocities.org/site_screenshots/32/19/solaria/index.html.540x405.webp)
+
 [Website besuchen [↗]](https://solaria.neocities.org)
 
 #### Hotline Cafe
 ![Hotline Cafe](https://neocities.org/site_screenshots/25/59/hotlinecafe/index.html.540x405.webp)
+
 [Website besuchen [↗]](https://hotlinecafe.com)
 
 #### ninacti0n's Lab
 ![Solaria's Webspace](https://neocities.org/site_screenshots/29/13/ninacti0n/main_page.html.540x405.webp)
+
 [Website besuchen [↗]](https://ninacti0n.neocities.org/main_page)
 
 #### Dragon Quest: The Ultimate Game Experience
 ![Hotline Cafe](https://neocities.org/site_screenshots/57/39/dragonquest/index.html.540x405.webp)
+
 [Website besuchen [↗]](https://dragonquest.neocities.org/)
 
 Das war's für heute von mir. Vielen Dank, dass du vorbeigeschaut hast, und bis bald! ✌️

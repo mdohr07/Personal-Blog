@@ -250,22 +250,29 @@ footer {
     color: #78DB97;
 }
 
+.postmeta, .postmeta a {
+    padding: 0;
+    margin: -10px 0px 30px 0px;
+    text-decoration: none;
+}
+
+.postdate {
+    margin-right: 1rem;
+}
+
 a.category {
     font-size: 16px;
     text-decoration: none;
     color: #5C5B77;
 }
 
-a.badge{
-    color: #5C5B77;
+a.badge {
+    color: #78DB97;
+    text-decoration: none;
 }
 
-.badge::before {
-    content: '[';
-}
-
-.badge::after {
-    content: ']';
+.postcategory, a.badge, .postmeta {
+    font-size: 13px;
 }
 
 .category-container {
@@ -319,7 +326,6 @@ a.category-button:visited {
 .post-list article.card .entrytitle {
     margin: 0;
     text-align: left;
-    text-wrap: balance;
     max-width: 800px;
 }
 
@@ -327,7 +333,7 @@ a.category-button:visited {
     color: #2D293D;
     background-color: #E8FFEE;
     padding: 0 5px 0 5px;
-    width: 90px;
+    min-width: 90px;
 }
 
 .post-list .post-info {
@@ -339,10 +345,16 @@ a.category-button:visited {
     gap: 20px;
 }
 
+.postcategory {
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
 .guestbook {
     background-color: #E8FFEE;
     color: #2D293D;
     padding: 1rem;
+    margin-top: 1rem;
 }
 
 .guestbook h4 {
@@ -354,7 +366,7 @@ a.category-button:visited {
 @media only screen and (max-width: 600px) {
     body {
         width: 95%;
-        max-width: 400px;
+        max-width: 500px;
     }
 
     img {
@@ -393,17 +405,20 @@ a.category-button:visited {
         font-size: 30px;
     }
 
-
     .post-list .post-info {
         flex-direction: column;
         gap: 0px;
+    }
+
+    .postcategory {
+        margin-left: 0;
     }
 
     .post-list article.card date {
         color: #2D293D;
         background-color: #E8FFEE;
         padding: 0 5px 0 5px;
-        width: 95%;
+        width: 97%;
     }
 
     .post-list article.card {
