@@ -255,7 +255,7 @@ footer {
     text-decoration: none;
 }
 
-.postdate {
+.dt-published {
     margin-right: 1rem;
 }
 
@@ -346,7 +346,7 @@ a.category-button:visited {
 
 .postcategory {
     margin-top: 10px;
-    margin-left: 120px;
+    margin-left: 135px;
 }
 
 .guestbook {
@@ -366,6 +366,7 @@ a.category-button:visited {
     body {
         width: 95%;
         max-width: 500px;
+        font-size: 14px;
     }
 
     img {

@@ -19,9 +19,9 @@ const { title, description, date, category, author, musik, stimmung} = frontmatt
 
 <section class="postmeta">
     <p>
-        <span class="postdate">
+        <span class="dt-published">
         Veröffentlicht am { formatDate(date) } 
-        <a href={`/author/${slugify(author)}`}>by {author}</a>
+        by <a href={`/author/${slugify(author)}`}>{author}</a>
         </span>
 
         🏷️ <a href={`./category/${slugify(category)}/`} class="badge">{category}</a>
@@ -40,13 +40,9 @@ const { title, description, date, category, author, musik, stimmung} = frontmatt
 
     
 </section>
-
-        <slot />            
-            
-        
         <!-- Blog content goes into slot below -->
-
-            
+        <slot />            
+                  
             <div class="guestbook">
                 <h4>Gästebuch</h4>
                 <p>
