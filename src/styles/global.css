@@ -148,7 +148,7 @@ Styling for 404-page is in 404.astro
 
 .title-link {
     display: inline-flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .title-link h1 a {
@@ -163,7 +163,6 @@ Styling for 404-page is in 404.astro
 
 .nav-bar img {
     background: transparent;
-    margin-top: 1.25rem;
 }
 
 .title-link a:hover img {
