@@ -148,7 +148,7 @@ Styling for 404-page is in 404.astro
 
 .title-link {
     display: inline-flex;
-    align-items: top;
+    align-items: flex-start;
 }
 
 .title-link h1 a {
