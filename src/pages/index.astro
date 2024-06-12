@@ -20,7 +20,19 @@ const formattedPosts = formatBlogPosts(allPosts, {
     Meine Leidenschaften sind zeichnen, malen und mit meinem Rennrad fahren. Ich liebe es, Skizzenbücher und Journals zu füllen. Aber ich baue auch gern Websites. Damit habe ich 1999 angefangen und lasse mich heute noch dabei gern dabei von Retro-Spielen und dem "Old Web" inspirieren. 
     </p>
 
-    <h4>Über diese Website</h4><img src="mblip-full.png" alt="Avatar" style="float:right; width: 200px;">
+            <!-- h-card -->
+            <div id="hcard-mdohr07" class="vcard">
+                <section><img src="https://mdohr.space/mblip-full.png" alt="mdohr07 - Avatar" /></section>
+                <section>
+                    <p class="additional-name"><b>mdohr07</b> | <span class="country-name">Germany</span></p>
+                    
+                    URL: <a class="url" href="https://mdohr.space">https://mdohr.space</a><br>
+                    eMail <a class="email" href="mailto:mdohr07@gmail.com">mdohr07@gmail.com</a><br>
+                    <p class="category">Informatik, Kunst, Rennrad, 3D, Frontend</p>
+                </section>
+                </div>
+
+    <h4>Über diese Website</h4>
     <p>Hier möchte ich vor allem meine Fortschritte und auch Gedanken dokumetieren, aber auch meine Projekte zur Schau stellen. 
     
     <p>
@@ -38,7 +50,9 @@ const formattedPosts = formatBlogPosts(allPosts, {
     <!-- <Projects -->    
         <hr> 
 
-    <!-- Blogposts -->
+    <!-- Blogposts
+         <a href="/rss.xml" title="RSS Feed">RSS abonnieren</a>
+         -->
     <section class="post-list" aria-label="List of blog posts">
         <h4>Neueste Blogeinträge</h4>
                {
@@ -51,4 +65,44 @@ const formattedPosts = formatBlogPosts(allPosts, {
                
     </section>
 </Layout>
+
+<style>
+
+.vcard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    background-color: #E8FFEE;
+    border: 2px solid #5C5B77;
+    padding: 10px;
+    color: #5C5B77;
+}
+
+.vcard a {
+    color: #5C5B77;
+}
+
+.vcard a:hover {
+    color: #2D293D;
+}
+
+.vcard img {
+    width: 100px;
+    float: left;
+}
+
+.category {
+    font-size: small;
+}
+
+@media only screen and (max-width: 600px) {
+    .vcard {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+}
+
+</style>
 
