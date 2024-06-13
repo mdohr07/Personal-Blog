@@ -12,15 +12,15 @@ const formattedPosts = formatBlogPosts(allPosts, {
 });
 ---
 
-<Layout pageTitle={pageTitle} description="Meine persönliche Website mit Blog">
+<Layout pageTitle={pageTitle} description="A personal Website with Blog">
     
-   <h2>Hallo 👋</h2>
-    <p lang="de">Ich bin Miriam und ich finde es schwierig, mich selbst zu betiteln.<br/>
-    Ich habe Grafik studiert und als Comic Zeichnerin, Concept Artist und Webdesignerin gearbeitet. Im Moment befinde ich mich in einer Umorientierungsphase und beginne bald eine Umschulung zur Fachinformatikerin. 🧑‍💻<br/>
-    Meine Leidenschaften sind zeichnen, malen und mit meinem Rennrad fahren. Ich liebe es, Skizzenbücher und Journals zu füllen. Aber ich baue auch gern Websites. Damit habe ich 1999 angefangen und lasse mich heute noch dabei gern dabei von Retro-Spielen und dem "Old Web" inspirieren. 
+   <h2>Hello 👋</h2>
+    <p lang="de">I'm Miriam and I find it difficult to give myself a title.
+    I studied graphics and worked as a comic artist, concept artist and web designer. At the moment I'm in a reorientation phase and will soon start retraining as an IT specialist. 🧑‍💻<br/>
+    My passions are drawing, painting and riding my racing bike. I love filling sketchbooks and journals. But I also like building websites. I started doing this in 1999 and I still like to be inspired by retro games and the "old web".
     </p>
 
-    <p>Auf dieser Website möchte ich vor allem meine Fortschritte und auch Gedanken dokumetieren, aber auch meine Projekte zur Schau stellen.</p>
+    <p>On this website I would like to document my progress and thoughts, but also showcase my projects.</p>
 
             <!-- h-card -->
             <div id="hcard-mdohr07" class="vcard">
@@ -40,12 +40,12 @@ const formattedPosts = formatBlogPosts(allPosts, {
                     📦 <a href="https://sketchfab.com/mdohr07" target="_blank" rel="me" class="u-url">Sketchfab</a>
                     </p>
 
-                    <p class="category">Informatik, Kunst, Rennrad, 3D, Frontend</p>    
+                    <p class="category">Informatics, Art, Racing bike, 3D, Frontend</p>    
                 </section>
                 </div>
 
-    <h3>AI Nutzung</h3>
-    <p>Ich schreibe meine Texte selbst, weil ich "ich" sein will, benutze aber gern AI für Brainstorming. </p>
+    <h3>AI Usage</h3>
+    <p>I write my own texts because I want to be "me", but I like to use AI for brainstorming.</p>
 
     <!-- Portfolio -->
     <!-- <Projects -->    
@@ -55,7 +55,7 @@ const formattedPosts = formatBlogPosts(allPosts, {
          <a href="/rss.xml" title="RSS Feed">RSS abonnieren</a>
          -->
     <section class="post-list" aria-label="List of blog posts">
-        <h4>Neueste Blogeinträge</h4>
+        <h4>Newest Blog entries</h4>
                {
                 formattedPosts.map((post) => (
                     <PostCard 

@@ -8,8 +8,8 @@ image: {}
 draft: false
 description: Umschulung zur Fachinformatikerin und wie es dazu kam
 category: Persönliche Entwicklung
-musik: "I'm gonna getcha good! (live) - Shania Twain"
-stimmung: nostalgisch
+music: "I'm gonna getcha good! (live) - Shania Twain"
+mood: nostalgisch
 ---
 
 Lange ist's her, dass ich einen Blogeintrag verfasst habe. Ich gebe offen zu, dass ich keine Lust hatte etwas zu schreiben, weil ich demotiviert war, was darin begründet ist, dass ich doch oft eher deprimiert war. Die Arbeitssuche war der Hauptgrunde. Immer wenn ich mir Hoffnungen auf eine Stelle gemacht habe, wurde diese wieder enttäuscht. Zum Beispiel wegen (angeblicher) mangelnder Erfahrung, teils wegen Fähigkeiten, die mir tatsächlich einfach fehlen und Agenturen dem bezüglich kein Risiko eingehen wollen. Es waren vor allem die Absagen, die mir ungerechtfertigt erschienen, die mir zugesetzt haben. Aber ich will nicht weiter ins Detail gehen.
