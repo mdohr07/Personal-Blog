@@ -25,7 +25,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 ---
 
 <Layout title={name} pageTitle="mdohr" description="Mein Web Development Blog">
-  <h2>Einträge über {name}</h2>
+  <h2>Entries by category {name}</h2>
   <section class="post-list" aria-label={`Einträge über ${name}`}>
     {catPosts.map(post => (
       <PostCard 
