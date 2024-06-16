@@ -1,6 +1,6 @@
 # Personal Frontend Development Blog
 
-This is a personal blog focused on frontend development, written in German. It's a fork of an existing repository that already had a layout that suited my preferences. I made cosmetic and functional changes to adapt it to my needs.
+This is a personal blog. It's a fork of an existing repository that already had a layout that suited my preferences. I made cosmetic and functional changes to adapt it to my needs.
 
 ## Cosmetic Changes 💄
 - Customized cards.
@@ -15,11 +15,12 @@ This is a personal blog focused on frontend development, written in German. It's
 - Added Pagination.
 - Custom 404-page.
 - Blog posts are structured with Markdown layouts and Frontmatter.
+- Added an RSS feature.
 
 ## Future Plans 📝
 I'm currently working on:
 - Implementing a sitemap.
-- Adding an RSS feature.
+
 
 ## License
 This repository is under the MIT License, as per the original repository.
