@@ -10,50 +10,25 @@ import '../styles/global.css';
 // Site titles, description, etc.
 const pageTitle = "mdohr07";
 const { frontmatter } = Astro.props;
-const { title, description, date, category, author, music, mood} = frontmatter;
+const { title, description, date, category, author, music, mood } = frontmatter;
 ---
 
-<Layout {pageTitle} {description} >
-        <h1>{title}</h1>    
-<!-- Post Meta -->
-
-<section class="postmeta">
+<Layout {pageTitle} {description}>
+  <h1>{title}</h1>
+  <!-- Post Meta -->
+  <section class="postmeta">
     <p>
-        <span class="dt-published">
-        Published on { formatDate(date) } 
+      <span class="dt-published">
+        Published on {formatDate(date)}
         by <a href={`/author/${slugify(author)}`}>{author}</a>
-        </span>
-
-        🏷️ <a href={`./category/${slugify(category)}/`} class="badge">{category}</a>
+      </span>
+      🏷️ <a href={`./category/${slugify(category)}/`} class="badge">{category}</a>
     </p>
-
-    {music && (
-        <p>🎵 {music}
-        
-
-        
-{mood && (
-    <span style="color: #5C5B77">|</span> <span>Mood: {mood}</span>
-)}
-        </p>
-    )}
-
-    
-</section>
-        
-        <slot>
-            <article class="h-entry">
-            <!-- Blog content goes here -->    
-            </article>
-        <slot />            
-                  
-            <div class="guestbook">
-                <h4>Guestbook</h4>
-                <p>
-                Unfortunately I don't have a comment function built in, why don't you write in my guestbook instead :-)
-                </p>
-                <a href="http://users2.smartgb.com/g/g.php?a=s&i=g26-39641-50">
-                <button class="">Guestbook</button></a>
-            </div>
-
-        </Layout>
+    {music && <span>🎵 {music}</span>}
+    {mood && <span>| Mood: {mood}</span>}
+  </section>
+  <!-- Content of the post -->
+  <div class="content">
+    <slot />
+  </div>
+</Layout>
