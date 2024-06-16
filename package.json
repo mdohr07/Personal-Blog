@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.6",
+    "@astrojs/sitemap": "^3.1.5",
     "astro": "^4.3.6",
     "commentbox.io": "^2.1.0",
     "date-fns": "^2.30.0"
