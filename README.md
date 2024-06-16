@@ -1,6 +1,6 @@
 # Personal Frontend Development Blog
 
-This is a personal blog focused on frontend development, written in German. It's a fork of an existing repository that already had a layout that suited my preferences. I made cosmetic and functional changes to adapt it to my needs.
+This is a personal blog. It's a fork of an existing repository that already had a layout that suited my preferences. I made cosmetic and functional changes to adapt it to my needs.
 
 ## Cosmetic Changes 💄
 - Customized cards.
