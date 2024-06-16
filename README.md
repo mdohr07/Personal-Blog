@@ -15,11 +15,12 @@ This is a personal blog. It's a fork of an existing repository that already had 
 - Added Pagination.
 - Custom 404-page.
 - Blog posts are structured with Markdown layouts and Frontmatter.
+- Added an RSS feature.
 
 ## Future Plans 📝
 I'm currently working on:
 - Implementing a sitemap.
-- Adding an RSS feature.
+
 
 ## License
 This repository is under the MIT License, as per the original repository.
