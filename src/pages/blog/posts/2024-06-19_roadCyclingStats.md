@@ -37,7 +37,8 @@ Almost forgot to mention: I had a puncture lately, in both bikes, both on the ba
 
 <a href="https://imgur.com/GarseUE"><img src="https://i.imgur.com/GarseUE.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/7QWrz53"><img src="https://i.imgur.com/7QWrz53.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/BgUmkfX"><img src="https://i.imgur.com/BgUmkfX.jpg" title="source: imgur.com" /></a>np
+<a href="https://imgur.com/3e697YL"><img src="https://i.imgur.com/3e697YL.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/BgUmkfX"><img src="https://i.imgur.com/BgUmkfX.jpg" title="source: imgur.com" /></a>
 
 ## Premature birthday present
 Unfortunately, the sports store here in the city center is closing, which is a real shame as it's the only sports store in the center. The only good thing is that all the items are being thrown out in a big sale. So yesterday I was there with my wife, actually looking for something completely different. But then I saw: cycling shoes! Only very few and as far as I remember, they've never had a large selection of cycling shoes. But I had a look anyway and there was actually a pair that seemed to be just waiting for me. A pair of <a href="https://www.bike24.de/p1354960.html" target="_blank">Scott MTB shoes</a> (I have single-sided SPD clipless pedals) and also the only one in my size. In black, you can't go very wrong with that. I tried them on and they even fit! According to my wife, my eyes lit up at the sight of the shoes with forty percent off on them, so she bought them for me as an early birthday present.
