@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
-import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
+export default defineConfig({});
 export default defineConfig({
-  integrations: [sitemap()]
-});
+    site: 'https://mdohr07.netlify.app', 
+  });
