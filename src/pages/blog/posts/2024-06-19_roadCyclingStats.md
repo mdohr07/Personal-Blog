@@ -6,7 +6,7 @@ date: 2024-06-19
 author: mdohr07
 image: {}
 draft: false
-description: The upcoming retraining as an IT specialist and how it came about
+description: My improvements on the bike and an early birthday present
 category: Cycling
 music: "Lullaby - The Cure"
 mood: Calm
