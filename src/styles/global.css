@@ -354,14 +354,28 @@ a.category-button:visited {
 }
 
 .guestbook {
-    border: 1px solid #FF3C66;
-    color: #FF3C66;
+    color: #2D293D;
+    border: 2px solid #FF3C66;
+    background-color: #E8FFEE;
     padding: 1rem;
     margin-top: 1rem;
 }
 
-.guestbook h4 {
-    margin: 0 0 1rem;
+.guestbook button {
+    background-color: #E8FFEE;
+    color: #2D293D;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 10px solid;
+    border-bottom: 10px solid;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    padding: 1rem 2rem;
+}
+
+.guestbook button:hover {
+    color: #FF3C66;
 }
 
 /* projects container */
