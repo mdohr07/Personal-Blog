@@ -212,11 +212,11 @@ Styling for 404-page is in 404.astro
 }
 
 button, a button {
-    background-color: #787796;
-    border: 1px solid #99CC99;
+    background-color: #2D293D;
+    border: 1px solid #FF3C66;
     padding: 5px 20px 6px 20px;
     margin-top: 1.5rem;
-    color: #99CC99;
+    color: #FF3C66;
     letter-spacing: 2px;
     text-decoration: none;
     font-weight: bold;
@@ -226,7 +226,7 @@ button, a button {
 
 button:hover {
     border: 1px solid #E8FFEE;
-    background-color: #99CC99;
+    background-color: #787796;
     color: #E8FFEE;
     transition: 0.5s ease;
 }
@@ -354,8 +354,8 @@ a.category-button:visited {
 }
 
 .guestbook {
-    background-color: #E8FFEE;
-    color: #2D293D;
+    border: 1px solid #FF3C66;
+    color: #FF3C66;
     padding: 1rem;
     margin-top: 1rem;
 }
