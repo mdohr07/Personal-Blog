@@ -15,6 +15,7 @@ const { pageTitle, description } = Astro.props;
 <ViewTransitions />
 <Header {pageTitle} {description}/>
 
+<html lang="en">
 	<body>
         <link rel="canonical" href={canonicalURL} />
         <main lang="en">
@@ -25,3 +26,5 @@ const { pageTitle, description } = Astro.props;
 
         <!-- transition:animate={slide({ duration: '0.2s' })} -->
         </body>
+        
+        </html>
