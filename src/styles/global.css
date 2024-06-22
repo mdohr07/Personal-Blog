@@ -19,6 +19,14 @@ body {
     font-size: 18px;
     font-weight: 400;
     text-align: left;
+    border: none;
+    padding: 0;
+}
+
+h1 {
+    font-size: 44px;
+    border-left: 20px solid #FF3C66;
+    padding-left: 20px;
 }
 
 h1, h2 {
