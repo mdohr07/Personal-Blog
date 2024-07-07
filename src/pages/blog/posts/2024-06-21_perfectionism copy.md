@@ -8,7 +8,7 @@ image: {}
 draft: false
 description: A reflection on my own perfectionism
 category: Personal Development
-music: "Losinr my religion - R.E.M."
+music: "Losing my religion - R.E.M."
 mood: Apathetic
 ---
 
