@@ -1,4 +1,4 @@
-# Personal Website $ Blog
+# Personal Website with Blog
 
 This is a personal blog. It's a fork of an existing repository that already had a layout that suited my preferences. I made cosmetic and functional changes to adapt it to my needs.
 
