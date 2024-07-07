@@ -36,7 +36,7 @@ Since I'm already seeing progress in my approach and also in my attitude towards
 
 I also got myself a new journal because my old one was full (way too quickly, by the way, the Leuchtturm journal was too thin for the price). It's actually a sketchbook, but I use it to take notes and draw or doodle something, as long as I can still follow the lesson (I can't do that with math...). I think it was a very good idea myself, because it gives me an overview of what has happened in the retraining and I can document my progress and write guidelines for myself. Then I can refer back to this information again and again.
 
-# Outlook
+### Outlook
 In the week starting tomorrow, I want to be better prepared for the tasks that I found difficult last week and do better this time. It would be great if I could solve something without any help that I failed at last week. Next week we will also be looking at version control with Git, which I am really looking forward to. I've already done a bit of work on the subject and was planning to learn it properly, but that hasn't happened yet. That's why I'm looking forward to it.
 
 <img src="https://i.giphy.com/3oKIPnAiaMCws8nOsE.webp" alt="a coding cat who is super cute" />
