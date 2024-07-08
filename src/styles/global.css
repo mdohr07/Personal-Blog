@@ -542,6 +542,10 @@ a.category-button:visited {
         font-size: 30px;
     }
 
+    h2, h3, h4, h5 {
+        font-size: smaller;
+    }
+
     .post-list .post-info {
         flex-direction: column;
         gap: 0px;
