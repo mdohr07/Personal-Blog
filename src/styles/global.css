@@ -542,9 +542,25 @@ a.category-button:visited {
         font-size: 30px;
     }
 
-    h2, h3, h4, h5 {
-        font-size: smaller;
-    }
+h2, h2 a {
+    font-size: 26px;
+}
+
+h3, h3 a {
+    font-size: 22px;
+}
+
+h4, h4 a {
+    font-size: 18px;
+}
+
+h5, h5 a {
+    font-size: 16px;
+}
+
+h6, h6 a {
+    font-size: 14px;
+}
 
     .post-list .post-info {
         flex-direction: column;
@@ -578,9 +594,5 @@ a.category-button:visited {
 @media only screen and (max-width: 768px) {
     body {
         width: 90%;
-    }
-
-        h2, h3, h4, h5 {
-        font-size: 60%;
     }
 }
