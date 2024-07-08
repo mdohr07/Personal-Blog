@@ -579,4 +579,8 @@ a.category-button:visited {
     body {
         width: 90%;
     }
+
+        h2, h3, h4, h5 {
+        font-size: smaller;
+    }
 }
