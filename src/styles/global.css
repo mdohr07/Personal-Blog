@@ -542,25 +542,25 @@ a.category-button:visited {
         font-size: 30px;
     }
 
-h2, h2 a {
+    h2, h2 a {
     font-size: 26px;
-}
+    }
 
-h3, h3 a {
+    h3, h3 a {
     font-size: 22px;
-}
+    }
 
-h4, h4 a {
+    h4, h4 a {
     font-size: 18px;
-}
+    }
 
-h5, h5 a {
+    h5, h5 a {
     font-size: 16px;
-}
+    }
 
-h6, h6 a {
+    h6, h6 a {
     font-size: 14px;
-}
+    }
 
     .post-list .post-info {
         flex-direction: column;
@@ -595,4 +595,27 @@ h6, h6 a {
     body {
         width: 90%;
     }
+        h1 {
+        font-size: 30px;
+        }
+
+        h2, h2 a {
+        font-size: 26px;
+        }
+
+        h3, h3 a {
+        font-size: 22px;
+        }
+
+        h4, h4 a {
+        font-size: 18px;
+        }
+
+        h5, h5 a {
+        font-size: 16px;
+        }
+
+        h6, h6 a {
+        font-size: 14px;
+        }
 }
