@@ -22,9 +22,9 @@ const { title, description, date, category, author, music, mood } = frontmatter;
         Published on {formatDate(date)}
         by <a href={`/author/${slugify(author)}`}>{author}</a>
       </span>
-      🏷️ <a href={`./category/${slugify(category)}/`} class="badge">{category}</a>
+      Category: <a href={`./category/${slugify(category)}/`} class="badge">{category}</a>
     </p>
-    {music && <span>🎵 {music}</span>}
+    {music && <span>Music: {music}</span>}
     {mood && <span>| Mood: {mood}</span>}
   </section>
   <!-- Content of the post -->
