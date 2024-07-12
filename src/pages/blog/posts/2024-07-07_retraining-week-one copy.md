@@ -7,7 +7,7 @@ author: mdohr07
 image: {}
 draft: false
 description: A reflection on the first week of my retraining in IT which includes math 💀
-category: Personal Development
+category: IT training
 music: "Vampirevania - Jeremiah Kane"
 mood: Tired
 ---
