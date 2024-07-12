@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/BlogPostLayout.astro"
 
-title: About perfectionism
+title: About perfectionism 💀
 date: 2024-06-22
 author: mdohr07
 image: {}
