@@ -263,6 +263,13 @@ footer {
     text-decoration: none;
 }
 
+.metalabel {
+    background-color: #787796;
+    padding: 2px 5px;
+    border-radius: 3px;
+    text-transform: lowercase;
+}
+
 .dt-published {
     margin-right: 1rem;
 }
