@@ -29,9 +29,10 @@ const { pageTitle, description } = Astro.props;
 
         <!-- transition:animate={slide({ duration: '0.2s' })} -->
 
-    <audio src="/sounds/coin-collect.mp3" id="coin-collect"></audio>
+        <audio id="background-audio" src="/sounds/NextFuture.mp3" loop></audio>
 
+        <script type="module" src="/src/js/sounds.js?v=1"></script>
+        
 
-        <script type="module" src="src/js/sounds.js"></script>
         </body>
         </html>

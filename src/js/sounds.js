@@ -1,25 +1,25 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const links = document.querySelectorAll('.hoverSound');
-    const sound = new Audio('/sounds/game2.mp3'); // Stelle sicher, dass der Pfad korrekt ist
-    let soundEnabled = true;
-  
-    const toggleSoundButton = document.getElementById('toggle-sound');
-  
-    function toggleSound() {
-      soundEnabled = !soundEnabled;
-      toggleSoundButton.textContent = soundEnabled ? 'Turn sound off' : 'Turn sound on';
-    }
-  
-    toggleSoundButton.addEventListener('click', toggleSound);
-  
-    links.forEach(link => {
-      link.addEventListener('mouseenter', () => {
-        if (soundEnabled) {
-          sound.play().catch(error => {
-            console.error('Playback prevented:', error);
-          });
+// sounds.js
+
+// Warten, bis das DOM vollständig geladen ist
+document.addEventListener("DOMContentLoaded", function() {
+    const audio = document.getElementById('background-audio'); // Das Audio-Element holen
+    const audioToggle = document.getElementById('audio-toggle'); // Den Button holen
+
+    let isPlaying = false; // Eine Variable, um zu verfolgen, ob die Musik gerade abgespielt wird
+
+    // Funktion zum Starten oder Pausieren der Musik
+    function toggleAudio() {
+        if (isPlaying) {
+            audio.pause(); // Musik pausieren
+            isPlaying = false; // Den Status aktualisieren
+            audioToggle.textContent = 'Play sound'; // Den Text des Buttons aktualisieren
+        } else {
+            audio.play(); // Musik abspielen
+            isPlaying = true; // Den Status aktualisieren
+            audioToggle.textContent = 'Pause sound'; // Den Text des Buttons aktualisieren
         }
-      });
-    });
-  });
-  
+    }
+
+    // Event Listener für den Button, um die Funktion zum Starten/Pausieren der Musik aufzurufen
+    audioToggle.addEventListener('click', toggleAudio);
+});
