@@ -17,6 +17,9 @@ const { pageTitle, description } = Astro.props;
 
 <html lang="en">
 	<body>
+
+
+
         <link rel="canonical" href={canonicalURL} />
         <main lang="en">
 
@@ -25,6 +28,10 @@ const { pageTitle, description } = Astro.props;
         </main>
 
         <!-- transition:animate={slide({ duration: '0.2s' })} -->
+
+    <audio src="/sounds/coin-collect.mp3" id="coin-collect"></audio>
+
+
+        <script type="module" src="src/js/sounds.js"></script>
         </body>
-        
         </html>

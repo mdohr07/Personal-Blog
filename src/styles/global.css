@@ -219,23 +219,22 @@ Styling for 404-page is in 404.astro
     font-weight: bold;
 }
 
-button, a button {
-    background-color: #2D293D;
-    border: 1px solid #FF3C66;
-    padding: 5px 20px 6px 20px;
-    margin-top: 1.5rem;
-    color: #FF3C66;
-    letter-spacing: 2px;
-    text-decoration: none;
+button {
+    background-color: #bebebe;
+    padding: 3px 10px;
+    border-width: 2px;
+    border-color: #fff #787796 #787796 #fff;
+    color: blue;
+    margin: 0;
     font-weight: bold;
-    cursor: pointer;
-    text-decoration: none;
+    letter-spacing: 2px;;
 }
 
 button:hover {
-    border: 1px solid #E8FFEE;
-    background-color: #787796;
-    color: #E8FFEE;
+    border: 2px solid;
+    background-color: #ccc;
+    border-color: #787796 #aaa #aaa #787796;
+    color: #787796;
     transition: 0.5s ease;
 }
 
@@ -369,28 +368,9 @@ a.category-button:visited {
 }
 
 .guestbook {
-    color: #2D293D;
-    border: 2px solid #FF3C66;
-    background-color: #E8FFEE;
-    padding: 1rem;
-    margin-top: 1rem;
-}
-
-.guestbook button {
-    background-color: #E8FFEE;
-    color: #2D293D;
-    border-top: 1px solid;
-    border-left: 1px solid;
-    border-right: 10px solid;
-    border-bottom: 10px solid;
-    text-transform: uppercase;
-    font-size: 1rem;
-    letter-spacing: 0.5rem;
-    padding: 1rem 2rem;
-}
-
-.guestbook button:hover {
     color: #FF3C66;
+    margin-top: 1rem;
+    margin-bottom: 0;
 }
 
 /* projects container */
