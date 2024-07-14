@@ -1,13 +1,9 @@
-// sounds.js
-
-// Eine Funktion, um den Event-Listener zu registrieren
-function registerAudioToggleListener() {
+// Warten, bis das DOM vollständig geladen ist
+document.addEventListener("DOMContentLoaded", function() {
     const audio = document.getElementById('background-audio'); // Das Audio-Element holen
     const audioToggle = document.getElementById('audio-toggle'); // Den Button holen
 
-    if (!audio || !audioToggle) return; // Überprüfen, ob die Elemente existieren
-
-    let isPlaying = !audio.paused; // Aktualisiert den Status basierend auf dem aktuellen Zustand des Audio-Elements
+    let isPlaying = true; // Eine Variable, um zu verfolgen, ob die Musik gerade abgespielt wird
 
     // Funktion zum Starten oder Pausieren der Musik
     function toggleAudio() {
@@ -23,16 +19,5 @@ function registerAudioToggleListener() {
     }
 
     // Event Listener für den Button, um die Funktion zum Starten/Pausieren der Musik aufzurufen
-    audioToggle.removeEventListener('click', toggleAudio); // Vorherige Event-Listener entfernen, um Duplikate zu vermeiden
     audioToggle.addEventListener('click', toggleAudio);
-
-    // Initialer Button-Text setzen
-    audioToggle.textContent = isPlaying ? 'Pause sound' : 'Play sound';
-}
-
-// Warten, bis das DOM vollständig geladen ist
-document.addEventListener("DOMContentLoaded", registerAudioToggleListener);
-
-// Falls ein JS-Router verwendet wird, sicherstellen, dass der Listener auch bei Navigation zwischen Seiten registriert wird
-document.addEventListener('turbolinks:load', registerAudioToggleListener); // Beispiel für Turbolinks
-document.addEventListener('pjax:end', registerAudioToggleListener); // Beispiel für PJAX
+});
