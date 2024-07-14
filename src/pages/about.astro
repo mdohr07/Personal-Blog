@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-const pageTitle = "mdohr07";
+const pageTitle = "About me";
 
 import PostCard from '../components/PostCard.astro';
 import Projects from '../components/Projects.astro';
@@ -14,6 +14,7 @@ const formattedPosts = formatBlogPosts(allPosts, {
 
 <Layout pageTitle={pageTitle} description="About page">
 
+    <h1>{pageTitle}</h1>
     <div class="imagecontainer">
 
         <p lang="en">I've put together a little profile for anyone who wants to find out a bit more about me. I find it very difficult to decide on my one favorite thing.
