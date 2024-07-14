@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+
 import { ViewTransitions } from 'astro:transitions';
 
 // utils import
@@ -6,8 +8,6 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
 const canonicalURL = `https://mdohr.space${URL}`;
-
-import '../styles/global.css';
 
 // Site titles and description
 const { pageTitle, description } = Astro.props;
@@ -29,10 +29,11 @@ const { pageTitle, description } = Astro.props;
 
         <!-- transition:animate={slide({ duration: '0.2s' })} -->
 
-        <audio id="background-audio" src="/sounds/NextFuture.mp3" loop></audio>
+        <audio id="background-audio" src="/sounds/NextFuture.mp3" autoplay loop></audio>
 
-        <script type="module" src="src/js/sounds.js"></script>
-        
+        <!--
+        <script type="module" src="/src/js/sounds.js"></script>
+         -->
 
         </body>
         </html>

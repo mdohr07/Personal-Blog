@@ -4,6 +4,7 @@ const pageTitle = "mdohr07";
 
 import PostCard from '../components/PostCard.astro';
 import { formatBlogPosts } from '../js/sortPosts';
+import type { it } from 'date-fns/locale';
 
 const allPosts = await Astro.glob("./blog/posts/*md");
 const formattedPosts = formatBlogPosts(allPosts, {
@@ -46,9 +47,10 @@ const formattedPosts = formatBlogPosts(allPosts, {
                 </section>
                 </div>
 
-                <p>This website plays music in the background :-)</p>
+                <p>This website plays music in the background. If you don't hear it, your browser is blocking the sound. You can activate and deactivate it in your browser settings :-)</p>
+                <!--
                 <button id="audio-toggle">Toggle sound</button>
-
+                -->
     
 
     <h3>AI Usage</h3>
