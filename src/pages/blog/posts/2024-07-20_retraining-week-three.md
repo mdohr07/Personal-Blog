@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/BlogPostLayout.astro"
 
-title: IT Specialist retraining - the third week 
+title: IT Specialist retraining - the third week 🙎🙅🙆
 date: 2024-07-21
 author: mdohr07
 image: {}
