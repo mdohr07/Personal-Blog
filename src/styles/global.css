@@ -6,8 +6,8 @@ html {
 
 body {
     height: 100%;
-    background-color: #2D293D;
-    color: #E8FFEE;
+    background-color: #333366;
+    color: #CCCCCC;
     max-width: 800px;
     margin: 0 auto;
     font-family:  monospace;
@@ -25,7 +25,7 @@ body {
 
 h1 {
     font-size: 44px;
-    border-left: 20px solid #FF3C66;
+    border-left: 20px solid #00FF00;
     padding-left: 20px;
 }
 
@@ -66,11 +66,11 @@ h5, h5 a {
 }
 
 h6, h6 a {
-    color: #2D293D;
+    color: #333333;
     font-size: 16px;
     font-weight: normal;
     text-decoration: none;
-    background-color: #E8FFEE;
+    background-color: #CCCCCC;
     padding: 0px 5px;
     margin: 3rem 0rem 0.3rem 0rem;
 }
@@ -94,18 +94,18 @@ ul li {
 }
 
 summary {
-    color:#99CC99;
+    color:#00FF00;
     margin: 10px 0;
 }
 
 blockquote {
-    border-left: 5px solid #E8FFEE;
+    border-left: 5px solid #CCCCCC;
     padding: 5px 5px 5px 20px;
-    background-color: #787796;
+    background-color: #666699;
 }
 
 code {
-    background-color: #787796;
+    background-color: #666699;
     padding: 0 2px;
     border-radius: 3px;
     font-size: 14px;
@@ -117,16 +117,16 @@ pre code {
 
 /* Links */
 a {
-    color:#ff3c66;
+    color:#00ff00;
     text-decoration: underline;
 }
 
 a:visited {
-    color: #FF3C66;
+    color: #00FF00;
 }
 
 a:hover {
-    color: #99CC99;
+    color: #00FF00;
     transition: 0.3s ease;
 }
 
@@ -149,7 +149,7 @@ Styling for 404-page is in 404.astro
 }
 
 .nav-links a {
-    color: #99CC99;
+    color: #00FF00;
     text-decoration: none;
     font-size: 14px;
 }
@@ -165,7 +165,7 @@ Styling for 404-page is in 404.astro
     font-size: 18px;
     font-weight: 400;
     padding: 0px 10px;
-    color: #E8FFEE;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -194,7 +194,7 @@ Styling for 404-page is in 404.astro
 .nav-links li::after {
     content: '/';
     margin-left: 7px;
-    color: #787796;
+    color: #666699;
 }
 
 .nav-links li:last-child::after {
@@ -202,8 +202,8 @@ Styling for 404-page is in 404.astro
 }
 
 .nav-links a:hover, a:focus {
-    color: #FF3C66;
-    text-decoration: underline #FF3C66;
+    color: #00FF00;
+    text-decoration: underline #00FF00;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
     transition: 0.3s ease;
@@ -220,10 +220,10 @@ Styling for 404-page is in 404.astro
 }
 
 button {
-    background-color: #bebebe;
+    background-color: #cccccc;
     padding: 3px 10px;
     border-width: 2px;
-    border-color: #fff #787796 #787796 #fff;
+    border-color: #fff #666699 #666699 #fff;
     color: #0000FF;
     margin: 0;
     font-weight: bold;
@@ -233,15 +233,15 @@ button {
 button:hover {
     border: 2px solid;
     background-color: #ccc;
-    border-color: #787796 #aaa #aaa #787796;
-    color: #787796;
+    border-color: #666699 #999999 #999999 #666699;
+    color: #666699;
     transition: 0.5s ease;
 }
 
 footer {
     height: 30px;
-    border-top: 1px solid #787796;
-    color: #787796;
+    border-top: 1px solid #666699;
+    color: #666699;
     margin-top: 3rem;
     margin-bottom: 0;
     padding: 10px;
@@ -253,7 +253,7 @@ footer {
 .entrytitle a {
     font-size: 16px;
     text-decoration: none;
-    color: #99CC99;
+    color: #00FF00;
 }
 
 .postmeta, .postmeta a {
@@ -263,7 +263,7 @@ footer {
 }
 
 .metalabel {
-    background-color: #787796;
+    background-color: #666699;
     padding: 2px 5px;
     border-radius: 3px;
     text-transform: lowercase;
@@ -276,16 +276,16 @@ footer {
 a.category {
     font-size: 16px;
     text-decoration: none;
-    color: #787796;
+    color: #666699;
 }
 
 a.badge {
-    color: #99CC99;
+    color: #00FF00;
     text-decoration: none;
 }
 
 a.badge:hover {
-    color: #FF3C66;
+    color: #00FF00;
 }
 
 .postcategory, a.badge, .postmeta {
@@ -298,35 +298,35 @@ a.badge:hover {
 
 .category-button a, .category-button a:visited {
     text-decoration: none;
-    color: #99CC99;
+    color: #00FF00;
     font-weight: normal;
 }
 
 .category-button a:hover {
-    color: #787796;
+    color: #666699;
 }
 
 .category-button {
     text-decoration: none; 
-    background-color: #787796;
-    border: 1px solid #99CC99;
+    background-color: #666699;
+    border: 1px solid #00FF00;
     padding: 5px 10px;
     margin: 0px 15px 15px 0px; 
 }
 
 .category-button:hover {
-    border: 1px solid #787796;
-    background-color: #2D293D;
-    color: #787796;
+    border: 1px solid #666699;
+    background-color: #333333;
+    color: #666699;
     transition: 0.5s ease;
 }
 
 a.category-button:visited {
-    color: #99CC99;
+    color: #00FF00;
 }
 
 .entrytitle a:hover, a:hover.category {
-    color: #FF3C66;
+    color: #00FF00;
     transition: 0.3s ease;
 }
 
@@ -347,8 +347,8 @@ a.category-button:visited {
 }
 
 .post-list article.card date {
-    color: #2D293D;
-    background-color: #E8FFEE;
+    color: #333333;
+    background-color: #CCCCCC;
     padding: 0 5px 0 5px;
     min-width: 90px;
 }
@@ -368,7 +368,7 @@ a.category-button:visited {
 }
 
 .guestbook {
-    color: #FF3C66;
+    color: #00FF00;
     margin-top: 1rem;
     margin-bottom: 0;
 }
@@ -414,18 +414,18 @@ a.category-button:visited {
     grid-template-columns: 1fr 2fr;
     align-items: center;
     justify-items: center;
-    background-color: #e8ffee;
-    border: 2px solid #787796;
+    background-color: #fff;
+    border: 2px solid #666699;
     padding: 20px;
-    color: #787796;
+    color: #666699;
 }
 
 .vcard a {
-    color: #2D293D;
+    color: #0000FF;
 }
 
 .vcard a:hover {
-    color: #2D293D;
+    color: #333333;
 }
 
 .vcard img {
@@ -504,7 +504,7 @@ a.category-button:visited {
     .nav-links li::after {
         content: '/';
         margin-left: 0px;
-        color: #787796;
+        color: #666699;
     }
 
     .title-link {
@@ -559,8 +559,8 @@ a.category-button:visited {
     }
 
     .post-list article.card date {
-        color: #2D293D;
-        background-color: #E8FFEE;
+        color: #333333;
+        background-color: #CCCCCC;
         padding: 0 5px 0 5px;
         width: 97%;
     }
