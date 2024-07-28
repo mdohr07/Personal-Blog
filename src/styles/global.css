@@ -293,7 +293,7 @@ a.badge:hover {
 }
 
 .category-container {
-    margin-top: 100px;
+    margin-top: 2rem;
 }
 
 .category-button a, .category-button a:visited {
@@ -307,12 +307,13 @@ a.badge:hover {
     background-color: #333333;
     border: 1px solid #666699;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 2px 10px;
     margin: 0px 15px 15px 0px; 
 }
 
 .category-button:hover {
     border: 1px solid #00FF00;
+    color: #00FF00;
     background-color: #666699;
     transition: 0.5s ease;
 }
