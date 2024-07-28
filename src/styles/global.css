@@ -298,31 +298,31 @@ a.badge:hover {
 
 .category-button a, .category-button a:visited {
     text-decoration: none;
-    color: #00FF00;
-    font-weight: normal;
-}
-
-.category-button a:hover {
     color: #666699;
+    font-weight: normal;
 }
 
 .category-button {
     text-decoration: none; 
-    background-color: #666699;
-    border: 1px solid #00FF00;
+    background-color: #333333;
+    border: 1px solid #666699;
+    border-radius: 10px;
     padding: 5px 10px;
     margin: 0px 15px 15px 0px; 
 }
 
 .category-button:hover {
-    border: 1px solid #666699;
-    background-color: #333333;
-    color: #666699;
+    border: 1px solid #00FF00;
+    background-color: #666699;
     transition: 0.5s ease;
 }
 
-a.category-button:visited {
+.category-button a:hover {
     color: #00FF00;
+}
+
+a.category-button:visited {
+    color: #666699;
 }
 
 .entrytitle a:hover, a:hover.category {
