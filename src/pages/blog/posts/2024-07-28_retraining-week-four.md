@@ -15,7 +15,7 @@ This week we worked with HTML and CSS, but Git was also a topic again. From - I 
 My team actually consisted of four members, but due to personal circumstances, one member was absent for most of the week and there were only three of us. In addition, one member had to bring her son to class from time to time, as there is currently no all-day care for him. That was a bit difficult at times, especially for the mother.
 There was supposed to be a test at the end of the week, but then the plan was changed at short notice: now the website project was to be presented and assessed instead of writing a test. By the time we found out, it was already Wednesday. If I had known this from the beginning, I wouldn't have approached it so casually and would have planned and structured it more clearly instead.
 
-<img src="/public/blogimg/tinktink.png" alt="Screenshots of our website project">
+<img src="/blogimg/tinktink.png" alt="Screenshots of our website project">
 
 ## Our project process
 We hadn't really thought about exactly what the site should look like and who would take on which tasks. We had assumed that we would have time to try things out and play around, as we weren't told when we had to be finished. That was a big misunderstanding. 
