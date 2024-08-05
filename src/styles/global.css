@@ -412,10 +412,12 @@ a.category-button:visited {
 /* h-Card */
 .vcard {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
     text-align: center;
+    width: 100%;
+    max-width: 400px;
     background-color: #fff;
     border: 2px solid #666699;
     padding: 20px;
@@ -433,7 +435,6 @@ a.category-button:visited {
 
 .vcard img {
     width: 200px;
-    float: left;
 }
 
 .category {
