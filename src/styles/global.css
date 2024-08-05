@@ -411,6 +411,8 @@ a.category-button:visited {
 
 /* h-Card */
 .vcard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
     width: 100%;
     background-color: #fff;
