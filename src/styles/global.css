@@ -183,7 +183,7 @@ Styling for 404-page is in 404.astro
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: left;
 }
 
 .nav-links ul li {
