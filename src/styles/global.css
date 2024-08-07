@@ -181,9 +181,6 @@ Styling for 404-page is in 404.astro
     list-style-type: none;
     padding: 0;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: left;
 }
 
 .nav-links ul li {
@@ -212,11 +209,6 @@ Styling for 404-page is in 404.astro
 .nav-links {
     font-size: 1.1rem;
     text-align: left;
-}
-
-.nav-links a {
-    margin: 0 13px;
-    font-weight: bold;
 }
 
 button {
