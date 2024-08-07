@@ -417,20 +417,12 @@ a.category-button:visited {
     justify-content: center;
     justify-items: center;
     grid-gap: 1rem;
-    width: 100%;
+    width: 95%;
     background-color: #fff;
     border: 2px solid #666699;
     padding: 10px;
     margin: 2rem 0;
     color: #666699;
-}
-
-.vcard .left {
-    text-align: center;
-}
-
-.vcard .right {
-    text-align: left;
 }
 
 .vcard a {
@@ -455,46 +447,43 @@ a.category-button:visited {
         justify-items: center;
         text-align: center;
     }
-}
-
     
-    @media only screen and (max-width: 600px) {
-        .link-images img {
-            height: 30px;
-            width: 30px;
-            margin: 16px 1px;
-        }
+    .link-images img {
+        height: 30px;
+        width: 30px;
+        margin: 16px 1px;
+    }
 
-        .project {
-            flex-direction:column;
-            gap: 0;
-        }
+    .project {
+       flex-direction:column;
+       gap: 0;
+    }
 
-        .project img {
-            max-width: 100%;
-        }
+    .project img {
+       max-width: 100%;
+    }
 
-        .projects h6 {
-            margin-top: -10px;
-        }
+    .projects h6 {
+       margin-top: -10px;
+    }
 
-        .project img {
-            width: 100%;
-        }
+    .project img {
+       width: 100%;
+    }
 
-        .tech img {
+    .tech img {
         width: 26px;
         height: 26px;
-        }
+     }
         
-        .hoverwrap img {
-            width: 100%;
-        }
+     .hoverwrap img {
+        width: 100%;
+     }
 
-        .text-overlay {
-            width: 100%;
-        }
-    }
+     .text-overlay {
+        width: 100%;
+     }
+}
 
 
 /* Media Query */
