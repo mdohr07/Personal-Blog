@@ -135,11 +135,6 @@ header {
     margin-bottom: 80px;
 }
 
-/* 
-Styling for projects is in Projects.astro 
-Styling for 404-page is in 404.astro 
-*/
-
 /* Navigation Bar */
 .nav-bar {
     display: grid;
@@ -161,7 +156,9 @@ Styling for 404-page is in 404.astro
 
 .title-link h1 a {
     display: inline-flex;
-    font-family: "Bungee", sans-serif;
+    font-family: "Rampart One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 18px;
     font-weight: 400;
     padding: 0px 10px;
