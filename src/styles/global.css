@@ -25,7 +25,7 @@ body {
 
 h1 {
     font-size: 44px;
-    border-left: 20px solid #00FF00;
+    border-left: 20px solid #CCFF00;
     padding-left: 20px;
 }
 
@@ -94,7 +94,7 @@ ul li {
 }
 
 summary {
-    color:#00FF00;
+    color:#CCFF00;
     margin: 10px 0;
 }
 
@@ -117,16 +117,16 @@ pre code {
 
 /* Links */
 a {
-    color:#00ff00;
+    color: #CCFF00;
     text-decoration: underline;
 }
 
 a:visited {
-    color: #00FF00;
+    color: #CCFF00;
 }
 
 a:hover {
-    color: #00FF00;
+    color: #CCFF00;
     transition: 0.3s ease;
 }
 
@@ -144,7 +144,7 @@ header {
 }
 
 .nav-links a {
-    color: #00FF00;
+    color: #CCFF00;
     text-decoration: none;
     font-size: 14px;
 }
@@ -196,8 +196,8 @@ header {
 }
 
 .nav-links a:hover, a:focus {
-    color: #00FF00;
-    text-decoration: underline #00FF00;
+    color: #CCFF00;
+    text-decoration: underline #CCFF00;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
     transition: 0.3s ease;
@@ -242,7 +242,7 @@ footer {
 .entrytitle a {
     font-size: 16px;
     text-decoration: none;
-    color: #00FF00;
+    color: #CCFF00;
 }
 
 .postmeta, .postmeta a {
@@ -269,12 +269,12 @@ a.category {
 }
 
 a.badge {
-    color: #00FF00;
+    color: #CCFF00;
     text-decoration: none;
 }
 
 a.badge:hover {
-    color: #00FF00;
+    color: #CCFF00;
 }
 
 .postcategory, a.badge, .postmeta {
@@ -301,14 +301,14 @@ a.badge:hover {
 }
 
 .category-button:hover {
-    border: 1px solid #00FF00;
-    color: #00FF00;
+    border: 1px solid #CCFF00;
+    color: #CCFF00;
     background-color: #666699;
     transition: 0.5s ease;
 }
 
 .category-button a:hover {
-    color: #00FF00;
+    color: #CCFF00;
 }
 
 a.category-button:visited {
@@ -316,7 +316,7 @@ a.category-button:visited {
 }
 
 .entrytitle a:hover, a:hover.category {
-    color: #00FF00;
+    color: #CCFF00;
     transition: 0.3s ease;
 }
 
@@ -358,7 +358,7 @@ a.category-button:visited {
 }
 
 .guestbook {
-    color: #00FF00;
+    color: #CCFF00;
     margin-top: 1rem;
     margin-bottom: 0;
 }
