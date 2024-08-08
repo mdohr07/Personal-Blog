@@ -156,13 +156,12 @@ header {
 
 .title-link h1 a {
     display: inline-flex;
-    font-family: "Rampart One", sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
     font-size: 18px;
-    font-weight: 400;
     padding: 0px 10px;
-    color: #fff;
+    margin-left: 0.5rem;
+    color: #00f;
     text-decoration: none;
 }
 
