@@ -407,7 +407,7 @@ a.category-button:visited {
     justify-items: center;
     grid-gap: 1rem;
     width: 90%;
-    background-color: #fff;
+    background-color: #ccc;
     border: 2px solid #666699;
     padding: 10px;
     margin: 2rem 0rem 0.5rem 0rem;
