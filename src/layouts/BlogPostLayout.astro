@@ -18,14 +18,24 @@ const { title, description, date, category, author, music, mood } = frontmatter;
   <!-- Post Meta -->
   <section class="postmeta">
 
+    <p>
       <span class="dt-published">
         Published on {formatDate(date)}
-      </span><br/>
+      </span>
+    </p>
 
-      <strong class="metalabel">Category:</strong> <a href={`./category/${slugify(category)}/`} class="badge">{category}</a><br/>
+    <p>
+      <strong class="metalabel">Category:</strong> <a href={`./category/${slugify(category)}/`} class="badge">{category}</a>
+    </p>
 
-    {music && <span><strong class="metalabel">Music:</strong> {music}</span>} <br>
+    <p>
+    {music && <span><strong class="metalabel">Music:</strong> {music}</span>} 
+    </p>
+
+    <p>
     {mood && <span> <strong class="metalabel">Mood:</strong> {mood}</span>}
+    </p>
+
   </section>
   <!-- Content of the post -->
   <div class="content">
