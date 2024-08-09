@@ -258,7 +258,6 @@ footer {
 
 .dt-published {
     margin-right: 1rem;
-    margin-top: -1.5rem;
     margin-bottom: 1.5rem;
     font-size: 1rem;
 }
@@ -522,7 +521,7 @@ a.category-button:visited {
         h4, h4 a,
         h5, h5 a, 
         h6, h6 a {
-            font-size: smaller;
+            font-size: 1.5rem;
         }
 
     .post-list .post-info {
@@ -564,6 +563,6 @@ a.category-button:visited {
         h4, h4 a,
         h5, h5 a, 
         h6, h6 a {
-            font-size: smaller;
+            font-size: 1.5rem;
         }
 }
