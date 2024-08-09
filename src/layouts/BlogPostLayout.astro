@@ -11,8 +11,6 @@ import '../styles/global.css';
 const pageTitle = "mdohr07";
 const { frontmatter } = Astro.props;
 const { title, description, date, category, author, music, mood } = frontmatter;
-
-const { prevUrl, nextUrl } = Astro.props;
 ---
 
 <Layout {pageTitle} {description}>
@@ -41,25 +39,6 @@ const { prevUrl, nextUrl } = Astro.props;
       <button class="">Reply by eMail</button></a>
   </div>
 
-<nav aria-label="Blog Pagination">
-    <hr />
-    {
-        prevUrl && (
-            <a href={prevUrl}>
-                ← NEXT ENTRY
-            </a>
-        )
-    }
-        {
-            nextUrl && (
-                <a href={nextUrl}>
-                   PREVIOUS ENTRY →
-                </a>
-            )
-        }
-</nav>
-
-
-
   </div>
+
 </Layout>
