@@ -20,8 +20,8 @@ const { title, description, date, category, author, music, mood } = frontmatter;
     <p>
       <span class="dt-published">
         Published on {formatDate(date)}
-        by <a href={`/author/${slugify(author)}`}>{author}</a>
-      </span>
+      </span><br/>
+
       <strong class="metalabel">Category:</strong> <a href={`./category/${slugify(category)}/`} class="badge">{category}</a>
     </p>
     {music && <span><strong class="metalabel">Music:</strong> {music}</span>} &nbsp;
