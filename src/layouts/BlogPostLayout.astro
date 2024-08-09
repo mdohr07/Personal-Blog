@@ -14,15 +14,16 @@ const { title, description, date, category, author, music, mood } = frontmatter;
 ---
 
 <Layout {pageTitle} {description}>
+
+<p>
+  <span class="dt-published">
+    Published on {formatDate(date)}
+  </span>
+</p>
+
   <h1>{title}</h1>
   <!-- Post Meta -->
   <section class="postmeta">
-
-    <p>
-      <span class="dt-published">
-        Published on {formatDate(date)}
-      </span>
-    </p>
 
     <p>
       <strong class="metalabel">Category:</strong> <a href={`./category/${slugify(category)}/`} class="badge">{category}</a>
