@@ -15,12 +15,11 @@ const { title, description, date, category, author, music, mood } = frontmatter;
 
 <Layout {pageTitle} {description}>
 
-<p class="dt-published">
-    {formatDate(date)}
-</p>
-
   <h1>{title}</h1>
   <!-- Post Meta -->
+    <p class="dt-published">
+        {formatDate(date)}
+    </p>
   <section class="postmeta">
 
     <p>
