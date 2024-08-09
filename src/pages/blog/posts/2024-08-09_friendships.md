@@ -1,15 +1,15 @@
 ---
 layout: "../../../layouts/BlogPostLayout.astro"
 
-title: Friendships
+title: About friendships and socialising 😶😶‍🌫️🌫️
 date: 2024-08-09
 author: mdohr07
 image: {}
-draft: true
-description: How do I put this...?
+draft: false
+description: A blog post about a long-term friendshio that didn't last and my new found social skills
 category: personal development
 music: none
-mood: Calm
+mood: Restless
 ---
 
 Today I want to write about friendship. The inspiration for this a friendship that I have lost not too long ago as well as my experience of having to socialise a lot lately.
