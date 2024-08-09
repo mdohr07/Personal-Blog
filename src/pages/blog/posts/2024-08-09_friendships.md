@@ -6,13 +6,13 @@ date: 2024-08-09
 author: mdohr07
 image: {}
 draft: false
-description: A blog post about a long-term friendshio that didn't last and my new found social skills
+description: A blog post about a long-term friendship that didn't last and my new found social skills
 category: personal development
 music: none
 mood: Restless
 ---
 
-Today I want to write about friendship. The inspiration for this a friendship that I have lost not too long ago as well as my experience of having to socialise a lot lately.
+Today I want to write about friendship. The inspiration for this was a friendship that I have lost not too long ago as well as my experience of having to socialise a lot lately.
 Let’s go way back first. 
 
 According to my mom, I was very outgoing when I was little, talking to all the strangers. Well, little did I know how people could be, right? When I started going to school I figured out that not everyone was nice and friendly and that there were (or rather are) people who don’t like me and that they can be pretty mean and even cruel, regardless of whether they like someone or not. What that did to me was, that I became pretty introverted and fast forward to adulthood even isolated. Also, I always had few friends throughout my life.
