@@ -516,29 +516,14 @@ a.category-button:visited {
         margin: 0 11px;
     }
 
-    h1 {
-    font-size: 2.25rem;
-    }
-
-    h2, h2 a {
-    font-size: 2rem;
-    }
-
-    h3, h3 a {
-    font-size: 1.5rem;
-    }
-
-    h4, h4 a {
-    font-size: 1.25rem;
-    }
-
-    h5, h5 a {
-    font-size: 1rem;
-    }
-
-    h6, h6 a {
-    font-size: 0.85rem;
-    }
+        h1,
+        h2, h2 a,
+        h3, h3 a,
+        h4, h4 a,
+        h5, h5 a, 
+        h6, h6 a {
+            font-size: smaller;
+        }
 
     .post-list .post-info {
         flex-direction: column;
@@ -573,27 +558,12 @@ a.category-button:visited {
     body {
         width: 90%;
     }
-        h1 {
-        font-size: 2.25rem;
-        }
-
-        h2, h2 a {
-        font-size: 2rem;
-        }
-
-        h3, h3 a {
-        font-size: 1.5rem;
-        }
-
-        h4, h4 a {
-        font-size: 1.25rem;
-        }
-
-        h5, h5 a {
-        font-size: 1rem;
-        }
-
+        h1,
+        h2, h2 a,
+        h3, h3 a,
+        h4, h4 a,
+        h5, h5 a, 
         h6, h6 a {
-        font-size: 0.85rem;
+            font-size: smaller;
         }
 }
